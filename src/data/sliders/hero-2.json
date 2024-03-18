@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "image": {
+        "desktop": "/images/bgvideogif.gif",
+        "mobile": "/images/hero-digital-1.jpg"
+      },
+      "title": "Solid Design and <br />Development Expertise",
+      "text": "Elevate your online presence with innovative web development, cutting-edge app solutions, and tailored software development. Partner with us for unmatched digital success.",
+      "button": {
+        "label": "Learn More",
+        "link": "/about"
+      }
+    },
+    {
+      "video": "/video/video-digital1.mp4",
+      "title": "Technology &amp; Mobile <br />App Development",
+      "text": "We build readymade websites, mobile apps <br>and elaborate online business services.",
+      "button": {
+        "label": "View Projects",
+        "link": "/projects"
+      }
+    }
+  ]
+}

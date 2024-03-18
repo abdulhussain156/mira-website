@@ -1,0 +1,22 @@
+{
+  "title": "MIRA Empowering <br/>Future with <br/>Digital Solutions!",
+  "subtitle": "A Gateway to Digital Solutions",
+  "number": {
+    "value": "14",
+    "label": "Years of Digital Solutions Experience"
+  },
+  "items": [
+    {
+      "title": "Our Mission",
+      "text": "MIRA has been a reliable and a trusted IT partner for big and small businesses for years. With our innovative approach and professionals at work, we are able to deliver prompt IT solutions that best cater your business needs. Unlock Potentials of your business with our Cutting-Edge Solutions from Our Expert Team!"
+    },
+    {
+      "title": "Our Goal",
+      "text": "Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands, tech, entertainment.",
+      "button": {
+        "label": "More About Us",
+        "link": "/about"
+      }
+    }
+  ]
+}

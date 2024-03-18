@@ -1,0 +1,29 @@
+{
+  "title": "Send Us Your <br/><strong>Bright Ideas</strong>",
+  "subtitle": "Get in Touch",
+  "text": "<a href=\"mailto:info@mira-dev.de\" target=\"_blank\">info@mira-dev.de</a><p>Waitzstraße 92 24118 Kiel <br />+49 1522 6426128</p>",
+  "bg_image": "/assets/images/contacbg.jpg",
+  "bg_image2": "/images/circle.png",
+  "social": [
+    {
+      "link": "https://facebook.com/",
+      "icon": "fab fa-facebook-f",
+      "title": "Facebook"
+    },
+    {
+      "link": "https://instagram.com/",
+      "icon": "fab fa-instagram",
+      "title": "Instagram"
+    },
+    {
+      "link": "https://twitter.com/",
+      "icon": "fab fa-twitter",
+      "title": "Twitter"
+    },
+    {
+      "link": "https://linkedin.com/",
+      "icon": "fab fa-linkedin-in",
+      "title": "LinkedIn"
+    }
+  ]
+}

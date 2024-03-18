@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "label": "- Web Development",
+      "link": "/services/service-1"
+    },
+    {
+      "label": "- Mobile App Development",
+      "link": "/services/service-2"
+    },
+    {
+      "label": "- Enterprise Software",
+      "link": "/services/service-3"
+    },
+    {
+      "label": "- Cloud-Based Solutions",
+      "link": "/services/service-4"
+    },
+    {
+      "label": "- UI/UX Design Services",
+      "link": "/contact-us"
+    },
+    {
+      "label": "- Maintenance and Support",
+      "link": "/contact-us"
+    },
+    {
+      "label": "- DevOps & CI",
+      "link": "/contact-us"
+    },
+    {
+      "label": "- QA and Testing",
+      "link": "/contact-us"
+    },
+    {
+      "label": "- Custom Software Solutions",
+      "link": "/services/service-5"
+    }
+  ]
+}
