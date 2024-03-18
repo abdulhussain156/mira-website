@@ -82,63 +82,23 @@
         "link": "/projects",
         "children": [
           {
-            "label": "Projects Grid",
+            "label": "Web App",
             "link": "/projects",
             "children": 0
           },
           {
-            "label": "Projects List",
-            "link": "/projects-2",
+            "label": "Mobile App",
+            "link": "/projects",
             "children": 0
           },
           {
-            "label": "Projects Side",
-            "link": "/projects-3",
-            "children": 0
-          },
-          {
-            "label": "Projects Masonry",
-            "link": "/projects-4",
-            "children": 0
-          },
-          {
-            "label": "Projects 3 Column",
-            "link": "/projects-5",
-            "children": 0
-          },
-          {
-            "label": "Gallery",
-            "link": "/gallery",
-            "children": 0
-          },
-          {
-            "label": "Project Detail",
-            "link": "/projects/project-01",
+            "label": "Desktop App",
+            "link": "/projects",
             "children": 0
           }
         ]
       },
-      {
-        "label": "Blog",
-        "link": "/blog",
-        "children": [
-          {
-            "label": "Blog Grid",
-            "link": "/blog",
-            "children": 0
-          },
-          {
-            "label": "Blog List",
-            "link": "/blog-2",
-            "children": 0
-          },
-          {
-            "label": "Blog Detail",
-            "link": "/blog/play-to-your-strength-and-supercharge-your-business",
-            "children": 0
-          }
-        ]
-      },
+
       {
         "label": "Contact Us",
         "link": "/contact",

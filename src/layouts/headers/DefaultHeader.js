@@ -130,10 +130,10 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                               >
                                 {item.label}
                               </Link>
-                              {item.children && (
+                              {item.children != 0 && (
                                 <i className="icon fas fa-chevron-down" />
                               )}
-                              {item.children != 0 && (
+                              {item.children !== 0 && (
                                 <ul className="sub-menu">
                                   {item.children.map((subitem, key) => (
                                     <li key={`header-nav-sub-item-${key}`}>
