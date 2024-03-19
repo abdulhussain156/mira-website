@@ -5,6 +5,7 @@
         "desktop": "/images/bgvideogif.gif",
         "mobile": "/images/bgvideogif.gif"
       },
+      "svg": true,
       "title": "Solid Design and <br />Development Expertise",
       "text": "Elevate your online presence with innovative web development, cutting-edge app solutions, and tailored software development. Partner with us for unmatched digital success.",
       "button": {
@@ -14,6 +15,7 @@
     },
     {
       "video": "/video/video-digital1.mp4",
+      "svg": false,
       "title": "Technology &amp; Mobile <br />App Development",
       "text": "We build readymade websites, mobile apps <br>and elaborate online business services.",
       "button": {

@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 import { servicesHover } from "@common/utilits";
 
-const ServicesSection = () => {
+const ServicesSection = ({ paddingtop = false }) => {
   useEffect(() => {
     servicesHover();
   }, []);
@@ -12,7 +12,11 @@ const ServicesSection = () => {
   return (
     <>
       {/* Onovo Services */}
-      <section className="onovo-section gap-top-20 gap-bottom-140">
+      <section
+        className={`onovo-section ${
+          paddingtop ? "gap-top-140" : "gap-top-20"
+        } gap-bottom-140`}
+      >
         <div className="container-xl">
           {/* Services items */}
           <div className="row onovo-services-grid-fw">

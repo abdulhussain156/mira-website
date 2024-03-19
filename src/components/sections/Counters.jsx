@@ -1,5 +1,5 @@
 import Data from "@data/sections/counters.json";
-// import CountUp from "react-countup";
+import CountUp from "react-countup";
 
 const CountersSection = () => {
   return (
@@ -16,12 +16,12 @@ const CountersSection = () => {
               >
                 <div className="onovo-counter">
                   <div className="num onovo-text-white js-counter">
-                    {/* <CountUp
+                    <CountUp
                       end={item.value}
                       duration={7}
                       enableScrollSpy={true}
                       scrollSpyOnce={true}
-                    /> */}
+                    />
                   </div>
                   {item.after != "" && (
                     <div className="num-after onovo-text-white">

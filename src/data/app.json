@@ -1,8 +1,8 @@
 {
   "settings": {
-    "siteName": "Onovo",
+    "siteName": "Mira",
     "preloader": true,
-    "formspreeURL": "https://formspree.io/f/your_api_key",
+    "formspreeURL": "https://formspree.io/f/mkndbrbl",
     "portfolio": {
       "categories": [
         {
@@ -54,28 +54,13 @@
             "label": "Team Detail",
             "link": "/team/team-1",
             "children": 0
-          },
-          {
-            "label": "Services",
-            "link": "/services",
-            "children": 0
-          },
-          {
-            "label": "Service Detail",
-            "link": "/services/service-1",
-            "children": 0
-          },
-          {
-            "label": "Pricing Plans",
-            "link": "/pricing",
-            "children": 0
-          },
-          {
-            "label": "FAQ",
-            "link": "/faq",
-            "children": 0
           }
         ]
+      },
+      {
+        "label": "Services",
+        "link": "/services",
+        "children": 0
       },
       {
         "label": "Projects",
