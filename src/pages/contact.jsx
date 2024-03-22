@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   return (
-    <Layouts>
+    <Layouts header={2} darkHeader>
       <PageBanner
         pageTitle={"Contact Us"}
         pageDesc={

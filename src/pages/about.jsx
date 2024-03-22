@@ -37,7 +37,7 @@ const About = (props) => {
   };
 
   return (
-    <Layouts>
+    <Layouts header={2} darkHeader>
       <PageBanner
         pageTitle={"About Us"}
         pageDesc={

@@ -5,15 +5,21 @@ import { getSortedProjectsData } from "@library/projects";
 
 import PageBanner from "@components/PageBanner";
 
-const ProjectsGrid = dynamic( () => import("@components/ProjectsGrid"), { ssr: false } );
+const ProjectsGrid = dynamic(() => import("@components/ProjectsGrid"), {
+  ssr: false,
+});
 
 const Gallery = (props) => {
   return (
-    <Layouts>
-      <PageBanner pageTitle={"Our Projects"} pageDesc={"Creative studio at the intersection of art, designed technology."} />
+    <Layouts header={2}>
+      <PageBanner
+        pageTitle={"Our Projects"}
+        pageDesc={
+          "Creative studio at the intersection of art, designed technology."
+        }
+      />
 
       <ProjectsGrid projects={props.projects} layout={"grid"} galleryMode />
-      
     </Layouts>
   );
 };
@@ -24,7 +30,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      projects: allProjects
-    }
-  }
+      projects: allProjects,
+    },
+  };
 }

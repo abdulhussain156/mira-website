@@ -37,38 +37,40 @@ const Hero2Slider = () => {
                     </div>
                   )}
                   <div className="container">
-                    <div className="titles col-sm-12 col-md-6 col-lg-8">
-                      <h1 className="title onovo-text-white">
-                        <span
-                          data-splitting
-                          dangerouslySetInnerHTML={{ __html: item.title }}
-                        />
-                      </h1>
-                      <div className="text">
-                        <div className="subtitle onovo-text-white subtitle--left">
-                          <div
+                    <div className="row gap-top-140">
+                      <div className="titles col-sm-12 col-md-6 col-lg-8">
+                        <h1 className="title onovo-text-white">
+                          <span
                             data-splitting
-                            dangerouslySetInnerHTML={{ __html: item.text }}
+                            dangerouslySetInnerHTML={{ __html: item.title }}
                           />
-                        </div>
-                        <div className="onovo-bts">
-                          <Link
-                            className="onovo-btn btn--border btn--white btn--color onovo-hover-btn"
-                            href={item.button.link}
-                          >
-                            <i className="arrow">
-                              <span />
-                            </i>
-                            <span>{item.button.label}</span>
-                          </Link>
+                        </h1>
+                        <div className="text">
+                          <div className="subtitle onovo-text-white subtitle--left">
+                            <div
+                              data-splitting
+                              dangerouslySetInnerHTML={{ __html: item.text }}
+                            />
+                          </div>
+                          <div className="onovo-bts">
+                            <Link
+                              className="onovo-btn btn--border btn--white btn--color onovo-hover-btn"
+                              href={item.button.link}
+                            >
+                              <i className="arrow">
+                                <span />
+                              </i>
+                              <span>{item.button.label}</span>
+                            </Link>
+                          </div>
                         </div>
                       </div>
+                      {item.svg && (
+                        <div className=" col-sm-12 col-md-6 col-lg-4 hide-on-mobile">
+                          <SvgComponent />
+                        </div>
+                      )}
                     </div>
-                    {item.svg && (
-                      <div className=" col-sm-12 col-md-6 col-lg-4 hide-on-mobile">
-                        <SvgComponent />
-                      </div>
-                    )}
                   </div>
                 </div>
               </SwiperSlide>

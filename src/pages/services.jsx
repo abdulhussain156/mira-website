@@ -15,7 +15,7 @@ import ServicesSection from "../components/sections/Services";
 
 const Services = (props) => {
   return (
-    <Layouts>
+    <Layouts header={2} darkHeader>
       <PageBanner
         pageTitle={"Our Services"}
         pageDesc={"Our values and vaulted us to the top of our industry."}
