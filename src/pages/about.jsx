@@ -4,8 +4,8 @@ import Layouts from "@layouts/Layouts";
 
 import { getSortedTeamData } from "@library/team";
 import { getSortedServicesData } from "@library/services";
-
-// import CountUp from "react-countup";
+import Data from "@data/sections/services.json";
+import CountUp from "react-countup";
 import { circleText } from "@common/utilits";
 
 import PageBanner from "@components/PageBanner";
@@ -37,12 +37,10 @@ const About = (props) => {
   };
 
   return (
-    <Layouts header={2} darkHeader>
+    <Layouts header={2} footer={2} darkHeader>
       <PageBanner
         pageTitle={"About Us"}
-        pageDesc={
-          "Creative studio at the intersection of art, designand technology."
-        }
+        pageDesc={"MIRA Empowering Future with Digital Solutions!"}
       />
 
       {/* Onovo About */}
@@ -90,7 +88,12 @@ const About = (props) => {
                   className="num onovo-text-white js-counter"
                   data-end-value="23"
                 >
-                  {/* <CountUp end="23" duration={7} enableScrollSpy={true} scrollSpyOnce={true} /> */}
+                  <CountUp
+                    end="23"
+                    duration={7}
+                    enableScrollSpy={true}
+                    scrollSpyOnce={true}
+                  />
                 </div>
                 <div className="num-after onovo-text-white"> + </div>
                 <div className="label"> Team members </div>
@@ -104,7 +107,12 @@ const About = (props) => {
                   className="num onovo-text-white js-counter"
                   data-end-value="99"
                 >
-                  {/* <CountUp end="99" duration={7} enableScrollSpy={true} scrollSpyOnce={true} /> */}
+                  <CountUp
+                    end="99"
+                    duration={7}
+                    enableScrollSpy={true}
+                    scrollSpyOnce={true}
+                  />
                 </div>
                 <div className="num-after onovo-text-white"> + </div>
                 <div className="label"> Completed projects </div>
@@ -118,7 +126,12 @@ const About = (props) => {
                   className="num onovo-text-white js-counter"
                   data-end-value="12"
                 >
-                  {/* <CountUp end="12" duration={7} enableScrollSpy={true} scrollSpyOnce={true} /> */}
+                  <CountUp
+                    end="12"
+                    duration={7}
+                    enableScrollSpy={true}
+                    scrollSpyOnce={true}
+                  />
                 </div>
                 <div className="num-after onovo-text-white"> M </div>
                 <div className="label"> Lines of code </div>
@@ -127,7 +140,7 @@ const About = (props) => {
           </div>
 
           {/* Video */}
-          <div className="onovo-video" data-onovo-overlay data-onovo-scroll>
+          {/* <div className="onovo-video" data-onovo-overlay data-onovo-scroll>
             <div
               className="image"
               onClick={(e) => clickedVideoButton(e)}
@@ -147,7 +160,7 @@ const About = (props) => {
                 Play Video - Play Video - Play Video -{" "}
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Description */}
           <div className="row gap-top-100">
@@ -155,10 +168,25 @@ const About = (props) => {
               <h5 className="text-uppercase">Our Mission</h5>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-              From the moment our company was founded, we have helped our
-              clients find exceptional solutions for their businesses , creating
-              memorable brands and digital products. Our expertise grows with
-              each year, and our accumulated experience.
+              Our story unfolds at MIRA Dev, where a cohesive team of software
+              experts is fueled by a collective passion for innovative software
+              solutions. Specializing in web apps, mobile apps, but also in
+              enterprise resource planning (ERP), SAP Business One (SAPB1), and
+              Point of Sale (POS) systems, we stand as pioneers in reshaping the
+              digital landscape of business operations. <br />
+              Though it's been just a year since we embarked on the MIRA Dev
+              journey, we've already achieved remarkable milestones. However,
+              our vision extends far beyond these accomplishments. We are poised
+              to break new ground, pushing the boundaries of innovation and
+              setting new standards in the software industry. Our commitment to
+              excellence drives us forward as we continue to evolve, adapt, and
+              conquer new horizons. With every challenge we overcome and every
+              goal we surpass, we reaffirm our dedication to shaping a brighter
+              future for MIRA Dev and the world of software solutions. <br />
+              Our journey at MIRA Dev is marked by a steadfast commitment to
+              growth and excellence. What began as a close-knit group of
+              professionals has blossomed into a thriving community, dedicated
+              to pushing the boundaries of software innovation. <br />
             </div>
           </div>
 
@@ -168,14 +196,23 @@ const About = (props) => {
               <h5 className="text-uppercase">Our Goal</h5>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-              Our goal is to deliver amazing experiences that make people talk,
-              and build strategic value for brands, tech, entertainment, arts
-              &amp; culture.
+              Driven by a deep-seated trust and shared vision, we forge ahead
+              with each project, crafting bespoke solutions that empower
+              businesses and individuals alike. With a focus on real-time
+              functionality and cutting-edge technology, we elevate processes
+              and drive tangible results. <br /> At MIRA Dev, we understand the
+              power of SEO in enhancing online visibility and driving organic
+              traffic. By optimizing every aspect of our solutions, we ensure
+              that our clients stand out in the digital landscape, commanding
+              attention and achieving their goals. Join us on our journey as we
+              continue to script a compelling narrative for MIRA Dev, shaping
+              the future of software solutions with innovation, expertise, and a
+              touch of passion and dedication.
             </div>
           </div>
 
           {/* Gallery */}
-          <div className="row gap-top-100">
+          {/* <div className="row gap-top-100">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <a href="/images/posts1.jpg" className="mfp-image">
                 <img src="/images/posts1-1024x683.jpg" alt="" />
@@ -186,19 +223,19 @@ const About = (props) => {
                 <img src="/images/posts2-1024x683.jpg" alt="" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
       <Services4Section services={props.services} />
 
-      <AwardsSection />
+      {/* <AwardsSection /> */}
 
-      <HistorySlider />
+      {/* <HistorySlider /> */}
 
       <Team2Section team={props.team} />
 
-      <Testimonial2Slider />
+      {/* <Testimonial2Slider /> */}
 
       <PartnersSection />
     </Layouts>
@@ -213,7 +250,7 @@ export async function getStaticProps() {
   return {
     props: {
       team: allTeam,
-      services: allServices,
+      services: Data.items,
     },
   };
 }

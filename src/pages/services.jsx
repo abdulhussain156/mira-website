@@ -5,7 +5,7 @@ import Layouts from "@layouts/Layouts";
 import Link from "next/link";
 
 import { getSortedServicesData } from "@library/services";
-
+import Data from "@data/sections/services.json";
 import Services2Section from "@components/sections/Services2";
 import CountersSection from "@components/sections/Counters";
 import VideoSection from "@components/sections/Video";
@@ -25,7 +25,7 @@ const Services = (props) => {
 
       <CountersSection />
 
-      <VideoSection />
+      {/* <VideoSection /> */}
 
       {/* Onovo Services */}
       <section className="onovo-section gap-top-140 gap-bottom-140">
@@ -50,7 +50,7 @@ const Services = (props) => {
                 <div className="onovo-service-item-list-inner">
                   <div className="image onovo-hover-1">
                     <Link href={`/services/${item.id}`}>
-                      <img src={item.icon} alt={item.title} />
+                      <img src={item.image} alt={item.title} />
                     </Link>
                   </div>
                   <div className="num">
@@ -63,7 +63,7 @@ const Services = (props) => {
                   </h5>
                   <div className="onovo-text">
                     <div>
-                      <p>{item.short}</p>
+                      <p>{item.text}</p>
                     </div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      services: allServices,
+      services: Data.items,
     },
   };
 }

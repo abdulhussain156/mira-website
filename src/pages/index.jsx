@@ -37,7 +37,7 @@ const Home1 = (props) => {
   }, []);
 
   return (
-    <Layouts header={2} darkHeader>
+    <Layouts header={2} footer={2} darkHeader>
       <>
         <HeroSection />
         <AboutSection />
