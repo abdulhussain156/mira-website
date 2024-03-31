@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Data from "@data/sections/services-4.json";
 import { servShowcaseHover } from "@common/utilits";
+import Link from "next/link";
 
 const Services4Section = ({ services }) => {
   return (
@@ -25,26 +26,24 @@ const Services4Section = ({ services }) => {
                 key={`services4-item-${key}`}
                 className="onovo-service-item-list"
               >
-                <div className="onovo-service-item-list-inner">
-                  <div className="image onovo-hover-1">
-                    <a href={`/services/${item.id}`}>
+                <Link href={`/services/${item.id}`}>
+                  <div className="onovo-service-item-list-inner">
+                    <div className="image onovo-hover-1">
                       <img src={item.image} alt={item.title} />
-                    </a>
-                  </div>
-                  <div className="num">
-                    <span> 0{key + 1}. </span>
-                  </div>
-                  <h5 className="title">
-                    <a href={`/services/${item.id}`}>
+                    </div>
+                    <div className="num">
+                      <span> 0{key + 1}. </span>
+                    </div>
+                    <h5 className="title">
                       <span>{item.title}</span>
-                    </a>
-                  </h5>
-                  <div className="onovo-text">
-                    <div>
-                      <p>{item.text}</p>
+                    </h5>
+                    <div className="onovo-text">
+                      <div>
+                        <p>{item.text}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

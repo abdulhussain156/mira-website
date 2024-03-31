@@ -25,34 +25,32 @@ const ServicesSection = ({ paddingtop = false }) => {
                 key={`services-item-${key}`}
                 className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center"
               >
-                <div
-                  className={
-                    key == 1
-                      ? "onovo-service-grid-item onovo-hover-1 active active--default"
-                      : "onovo-service-grid-item onovo-hover-1"
-                  }
-                >
-                  <div className="image">
-                    <Link href={item.link}>
+                <Link href={`/services/${item.id}`}>
+                  <div
+                    className={
+                      key == 1
+                        ? "onovo-service-grid-item onovo-hover-1 active active--default"
+                        : "onovo-service-grid-item onovo-hover-1"
+                    }
+                  >
+                    <div className="image">
                       <img decoding="async" src={item.image} alt={item.title} />
-                    </Link>
-                  </div>
-                  <h5 className="onovo-title-3">
-                    <a href={item.link}>
+                    </div>
+                    <h5 className="onovo-title-3">
                       <span>{item.title}</span>
-                    </a>
-                  </h5>
-                  <div className="onovo-text">
-                    <div>
-                      <p className="text-service">{item.text}</p>
+                    </h5>
+                    <div className="onovo-text">
+                      <div>
+                        <p className="text-service">{item.text}</p>
+                      </div>
+                    </div>
+                    <div className="onovo-bubble">
+                      <div className="bubble-1" />
+                      <div className="bubble-2" />
+                      <div className="bubble-3" />
                     </div>
                   </div>
-                  <div className="onovo-bubble">
-                    <div className="bubble-1" />
-                    <div className="bubble-2" />
-                    <div className="bubble-3" />
-                  </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

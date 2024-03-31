@@ -15,7 +15,7 @@ import ServicesSection from "../components/sections/Services";
 
 const Services = (props) => {
   return (
-    <Layouts header={2} darkHeader>
+    <Layouts header={2} footer={2} darkHeader>
       <PageBanner
         pageTitle={"Our Services"}
         pageDesc={"Our values and vaulted us to the top of our industry."}
@@ -47,26 +47,24 @@ const Services = (props) => {
                 key={`services-item-${key}`}
                 className="onovo-service-item-list"
               >
-                <div className="onovo-service-item-list-inner">
-                  <div className="image onovo-hover-1">
-                    <Link href={`/services/${item.id}`}>
+                <Link href={`/services/${item.id}`}>
+                  <div className="onovo-service-item-list-inner">
+                    <div className="image onovo-hover-1">
                       <img src={item.image} alt={item.title} />
-                    </Link>
-                  </div>
-                  <div className="num">
-                    <span> 0{key + 1}. </span>
-                  </div>
-                  <h5 className="title">
-                    <Link href={`/services/${item.id}`}>
+                    </div>
+                    <div className="num">
+                      <span> 0{key + 1}. </span>
+                    </div>
+                    <h5 className="title">
                       <span>{item.title}</span>
-                    </Link>
-                  </h5>
-                  <div className="onovo-text">
-                    <div>
-                      <p>{item.text}</p>
+                    </h5>
+                    <div className="onovo-text">
+                      <div>
+                        <p>{item.text}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

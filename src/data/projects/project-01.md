@@ -1,10 +1,10 @@
 ---
 #preview
-title: Museums Art Concept
-image: /images/project-n01-3-1200x900.jpg
-category: Branding
-category_slug: branding
-type: Art Direction, Branding, Interactive Design
+title: Askona Sleep U8
+image: /assets/project/details/akonaCover.png
+category: Mobile App
+category_slug: Mobile App
+type: Sleep Technology, App Development, Customization, Connectivity, Comfort
 team: Thomas Jackki
 date: 2021-2023
 
@@ -25,37 +25,38 @@ details:
 
 gallery: 
     items:
-        - image: /images/project-2-2-1200x982.jpg
+        - image: /assets/project/details/akonaCover.png
           alt: "image"
 
-        - image: /images/project-2-1200x988.jpg
+        - image: /assets/project/details/akona1.png
           alt: "image"
 
-        - image: /images/project-4.jpg
+        - image: /assets/project/details/akona2.jpg
           alt: "image"
         
-        - image: /images/project-3-1200x750.jpg
+        - image: /assets/project/details/akona3.jpg
           alt: "image"
 
-        - image: /images/project-1-1080x800.jpg
-          alt: "image"
-        
-        - image: /images/project-8-1080x800.jpg
-          alt: "image"
 
 additional:
     heading: Project Result
     content: "
-      <p>Our immediate goal is to complete the testing phase and achieve the certification, which will allow us to bring our product to market by the end of the year. We are actively engaging with waste to energy operators, concrete manufacturers, and the wider construction industry.</p>
+      <p>Experience a paradigm shift in your sleep quality with the Askona Sleep 8 App. Harnessing the latest in sleep technology, this app empowers you to take charge of your comfort and well-being like never before.</p>
       <ul>
         <li>
-          Far curiosity incommode now led smallness allowance.
+          Tailor the heat level of your mattress to your exact liking, ensuring a cozy and soothing sleep environment every night.
         </li>
         <li>
-          Favour bed assure son things yet.
+         Effortlessly connect to your mattress via Bluetooth Low Energy (BLE), ensuring reliable communication and hassle-free adjustments.
         </li>
         <li>
-          She consisted consulted elsewhere happiness.
+          Set alarms within the app to gently awaken you at your preferred time, starting your day on a refreshing note.
+        </li>
+        <li>
+          Say goodbye to restless nights and hello to uninterrupted, rejuvenating sleep that leaves you feeling energized and ready to take on the day.
+        </li>
+        <li>
+         Embrace the future of sleep innovation with the Askona Sleep 8 App, designed to optimize your sleep experience and promote overall well-being.
         </li>
       </ul>
     "
@@ -63,13 +64,15 @@ additional:
 
 ### Description
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Air sides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+Introducing the Askona Sleep 8 App: Your Ultimate Control Hub for Smart, Heatable Mattress Comfort
 
-Global demand for a Circular Economy solution is already high, with global concrete manufacturers engaging with us to **develop specific testing programms**.
+Discover a new level of control over your sleeping environment with the revolutionary Askona Sleep 8 App. This innovative application serves as your personal command center, seamlessly interfacing with our cutting-edge IoT-enabled heatable mattress. Say goodbye to one-size-fits-all sleep experiences and hello to customized comfort tailored to your unique preferences.
 
 ###### Project Requirement
 
-- Far curiosity incommode now led smallness allowance.
-- Favour bed assure son things yet.
-- She consisted consulted elsewhere happiness.
-- Widow downs you new shade drift hopes small.s
+- Customize the warmth of your mattress with pinpoint accuracy, catering to your exact comfort preferences.
+- Enjoy the flexibility to create a cozy haven or a cooler sleeping surface, ensuring a refreshing and restorative night's sleep every time.
+- Effortlessly connect to your mattress hardware using advanced BLE technology.
+- Experience seamless and reliable communication between the app and your mattress, facilitating quick and hassle-free adjustments.
+- Never oversleep again with the integrated alarm feature.
+- Set your preferred wake-up time directly within the app, allowing it to gently rouse you from sleep and kickstart your day on a positive note.

@@ -1,10 +1,10 @@
 ---
 #preview
-title: Market Economy Graphics
-image: /images/project-2-2-1200x982.jpg
-category: Marketing
-category_slug: marketing
-type: UI/UX Design, Mobile Apps, Interactive Design
+title: Wemalo Handheld
+image: /assets/project/details/handheldCover.jpg
+category: Web app
+category_slug: App
+type: Web Application, Progress Web Application, Interactive Design
 team: Alexander Bravo
 date: 2021-2023
 
@@ -25,42 +25,38 @@ details:
 
 gallery: 
     items:
-        - image: /images/project-2-2-1200x982.jpg
+        - image: /assets/project/details/handheld1.png
           alt: "image"
 
-        - image: /images/project-2-1200x988.jpg
-          alt: "image"
-
-        - image: /images/project-4.jpg
-          alt: "image"
-        
-        - image: /images/project-3-1200x750.jpg
-          alt: "image"
-
-        - image: /images/project-1-1080x800.jpg
-          alt: "image"
-        
-        - image: /images/project-8-1080x800.jpg
+        - image: /assets/project/details/handheld2.jpg
           alt: "image"
 
 additional:
     heading: Project Result
     content: "
-      <p>Our immediate goal is to complete the testing phase and achieve the certification, which will allow us to bring our product to market by the end of the year. We are actively engaging with waste to energy operators, concrete manufacturers, and the wider construction industry.</p>
-      <ul>
-        <li>
-          Far curiosity incommode now led smallness allowance.
-        </li>
-        <li>
-          Favour bed assure son things yet.
-        </li>
-        <li>
-          She consisted consulted elsewhere happiness.
-        </li>
-      </ul>
+      <p>The implementation of the solution of grouping key tasks in the warehouse, such as booking incoming goods, returns, picking, packing and product relocation, would result in a significant optimization of logistics operations and a substantial improvement in overall warehouse efficiency.
+
+This strategic approach will result in greater synergy between daily activities, allowing tasks to be completed more consistently and quickly. By bringing these essential functions together, more efficient management of time and resources will be achieved, maximizing the productivity of warehouse staff.</p>
+   
     "
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+### Description
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+Handheld by Wemalo represents a successfully completed project that offer a comprehensive design to optimize daily tasks, from receiving goods to relocating products in the warehouse. The application efficiently and effectively addresses key warehouse operations, including goods receiving, returns, picking, packing and relocation.
+
+###### Project Requirement
+
+In the interviews with warehouse workers we identified the main tasks in the warehouse, such as receiving goods, picking, packing and repositioning of products within the warehouse, these tasks were performed with a laptop computer which gave less capacity for movement, they also had to do steps that could be dispensed with.
+
+**1. Adaptation to Specific Tasks**
+
+- Wemalo gave a solution but Laptops are generalist devices and may not be optimized for specific warehouse tasks, such as fast barcode scanning or real-time inventory tracking.
+
+**2. No Task-Specific Adaptability**
+
+- although WEMALO is a solution it does not offer specialized functions and features, improving efficiency in tasks such as picking, packing and relocation.
+
+**3. Non-Touch or Slower Interaction**
+
+- Tasks with slow interaction can result in processes that are more time consuming and not as agile, especially in situations where quick response or decision making is needed, this creates an impact on productivity.
