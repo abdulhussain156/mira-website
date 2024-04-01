@@ -5,27 +5,23 @@ name: Raza Abbas
 role: CEO
 first_letter: R
 social:
-  - link: https://facebook.com/
-    icon: fab fa-facebook-f
-    title: Facebook
-
-  - link: https://linkedin.com/
+  - link: https://www.linkedin.com/in/raza-abbas-4576a0147/
     icon: fab fa-linkedin-in
     title: Linkedin
 
 #full details
 info:
   - label: Age
-    value: 27 Years
+    value: 34 years
 
   - label: Location
-    value: Baird House, 15-17 St Cross St London EC1N 8UW
+    value: Waitzstraße 92, 24118, Kiel
 
   - label: Email
-    value: thomesjackki@domain.com
+    value: raza.abbas@mira-dev.de
 
   - label: Phone No
-    value: +44 (0) 20 7430 2973
+    value: +49 1522 6426128
 
 services:
   - service-1
@@ -54,12 +50,6 @@ projects:
   - project-05
 ---
 
-Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.
+### About Raza
 
-In addition to construction consultancy services **Bureau Veritas is a global leader in testing**, inspection and certification (TIC) and we have more than 190+ years of experience meaning that we also can assist you in other areas of your business if needed.
-
-- Far curiosity incommode now led smallness allowance.
-- Favour bed assure son things yet.
-- She consisted consulted elsewhere happiness.
-- Widow downs you new shade drift hopes small.
-- Interested discretion estimating on stimulated.
+He is the founder and CEO of Mira Dev, with over a decade of experience in both software and hardware development. His vision revolves around bridging the gap between humanity and the tech industry, a mission he diligently pursues each day.

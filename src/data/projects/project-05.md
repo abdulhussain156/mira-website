@@ -1,10 +1,10 @@
 ---
 #preview
-title: Flower Store Mobile App
-image: /images/project-3-1200x750.jpg
+title: Sypheon Online
+image: /assets/project/details/sypheon1.jpg
 category: Interactive
 category_slug: interactive
-type: Marketing, Rendering, 3D Design
+type: Crypto Trading, Multiplayer Game, Web application, Blockchain
 team: Lina Watson
 date: 2022-2023
 
@@ -21,46 +21,45 @@ details:
           value: Mar 18, 2023
         
         - label: "Website:"
-          value: bslthemes.com
+          value: https://www.sypheononline.com/demo
 
 gallery: 
     items:
-        - image: /images/project-2-2-1200x982.jpg
+        - image: /assets/project/details/sypheon2.jpg
           alt: "image"
 
-        - image: /images/project-2-1200x988.jpg
+        - image: /assets/project/details/sypheon3.jpg
           alt: "image"
 
-        - image: /images/project-4.jpg
+        - image: /assets/project/details/sypheon4.jpg
           alt: "image"
         
-        - image: /images/project-3-1200x750.jpg
+        - image: /assets/project/details/sypheon6.jpg
           alt: "image"
 
-        - image: /images/project-1-1080x800.jpg
-          alt: "image"
-        
-        - image: /images/project-8-1080x800.jpg
-          alt: "image"
-
+  
 additional:
     heading: Project Result
     content: "
-      <p>Our immediate goal is to complete the testing phase and achieve the certification, which will allow us to bring our product to market by the end of the year. We are actively engaging with waste to energy operators, concrete manufacturers, and the wider construction industry.</p>
-      <ul>
-        <li>
-          Far curiosity incommode now led smallness allowance.
-        </li>
-        <li>
-          Favour bed assure son things yet.
-        </li>
-        <li>
-          She consisted consulted elsewhere happiness.
-        </li>
-      </ul>
+      <p>Developed a multiplayer strategy game with building assets feature.
+Implemented APIs using Django for seamless communication between frontend and backend.
+Configured SMTP for email functionality with multiple user roles for enhanced security.
+Created a fully responsive React JS frontend with secure authentication for a user-friendly experience.
+Integrated web3 technology for crypto assets movement and wallet management, enabling users to buy and sell products securely.
+Successfully deployed the project and providing ongoing maintenance and support..</p>
+ 
     "
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+### Description
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+In this project, we developed a multiplayer strategy game that includes building assets and implementing various formulas in the API implementation process. The game also involves crypto assets movement and wallet management for buying and selling products using web3 technology.
+
+###### Project Requirement
+
+- Development of a multiplayer strategy game.
+- Implementation of APIs using different formulas.
+- Use of Django as a backend to provide APIs to the React JS frontend.
+- Configuration of SMTP for email functionality with multiple user roles.
+- Development of a fully responsive React JS frontend with secure authentication.
+- Incorporation of crypto assets movement and wallet management using web3 for buying and selling products.

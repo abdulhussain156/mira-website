@@ -9,7 +9,7 @@ import PartnersSection from "@components/sections/Partners";
 
 const Team = (props) => {
   return (
-    <Layouts>
+    <Layouts header={2} footer={2} darkHeader>
       <PageBanner
         pageTitle={"Our Team"}
         pageDesc={"Meet our creativity company family."}

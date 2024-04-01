@@ -12,7 +12,7 @@ date: 2021-2023
 details:
     items:
         - label: "Client:"
-          value: John Smith
+          value: MI park
 
         - label: "Start:"
           value: Dec 18, 2022
@@ -20,8 +20,6 @@ details:
         - label: "Ending:"
           value: Mar 18, 2023
         
-        - label: "Website:"
-          value: bslthemes.com
 
 gallery: 
     items:

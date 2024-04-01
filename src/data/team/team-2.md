@@ -5,27 +5,23 @@ name: Abbas Madad Naqvi
 role: SAP B1 (HOD)
 first_letter: A
 social:
-  - link: https://facebook.com/
-    icon: fab fa-facebook-f
-    title: Facebook
-
-  - link: https://linkedin.com/
+  - link: https://www.linkedin.com/in/abbas-naqvi-2bb470101/
     icon: fab fa-linkedin-in
     title: Linkedin
 
 #full details
 info:
   - label: Age
-    value: 25 Years
+    value: 35 years
 
   - label: Location
-    value: Baird House, 15-17 St Cross St London EC1N 8UW
+    value: Waitzstraße 92, 24118, Kiel
 
   - label: Email
-    value: melanie.robinson@domain.com
+    value: abbas.madad@mira-dev.de
 
   - label: Phone No
-    value: +44 (0) 20 7430 2973
+    value: +49 1522 6426128
 
 services:
   - service-1
@@ -54,8 +50,6 @@ projects:
   - project-04
 ---
 
-### What is your professional passion?
+### About Abbas
 
-The most exciting would be that no day is ever the same and each day brings new challenges. My professional passion would be team morale and relationship building. I think the true measure of success in an organization is to gage employee satisfaction, engagement nd the relationships that they build. I truly never envisioned that Construction would have been the organization that empowers. The most exciting would be that no day is ever the same and each day brings new challenges. My professional passion would be team morale and relationship building.
-
-Moorings Park Grande Lake. It’s my favorite because of the vast layers of the project from building structure to the customization in the building. (Only one I’ve been on so far but LOVE it)
+Abbas leads the development of ERP systems, bringing his expertise in ERP software to the forefront. With vast experience in SAPB1, he has successfully completed numerous projects worldwide.

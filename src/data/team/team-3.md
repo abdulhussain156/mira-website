@@ -5,27 +5,23 @@ name: Irtaza Madad
 role: Technical Project Manager
 first_letter: I
 social:
-  - link: https://facebook.com/
-    icon: fab fa-facebook-f
-    title: Facebook
-
-  - link: https://linkedin.com/
+  - link: https://www.linkedin.com/in/irtaza-madad-naqvi-798b5715a/
     icon: fab fa-linkedin-in
     title: Linkedin
 
 #full details
 info:
   - label: Age
-    value: 29 Years
+    value: 27 years
 
   - label: Location
-    value: Baird House, 15-17 St Cross St London EC1N 8UW
+    value: G-13, Islamabad, Pakistan.
 
   - label: Email
-    value: steven.morrison@domain.com
+    value: irtaza.madad@mira-dev.de
 
   - label: Phone No
-    value: +44 (0) 20 7430 2973
+    value: +92 3145372506
 
 services:
   - service-1
@@ -54,12 +50,6 @@ projects:
   - project-01
 ---
 
-Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.
+### About Irtaza
 
-- Far curiosity incommode now led smallness allowance.
-- Favour bed assure son things yet.
-- She consisted consulted elsewhere happiness.
-- Widow downs you new shade drift hopes small.
-- Interested discretion estimating on stimulated.
-
-In addition to construction consultancy services **Bureau Veritas is a global leader in testing**, inspection and certification (TIC) and we have more than 190+ years of experience meaning that we also can assist you in other areas of your business if needed.
+Irtaza is a Technical Project Manager specializing in software solutions and IoT development, adept at navigating the complexities of networks and emerging technologies. With 4 to 5 years of experience, he brings a wealth of expertise to the table.

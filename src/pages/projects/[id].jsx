@@ -22,7 +22,6 @@ import {
 } from "react-share";
 
 const ProjectDetail = (props) => {
-  console.log(props);
   const postData = props.data;
   let prev_id,
     next_id,
@@ -51,7 +50,6 @@ const ProjectDetail = (props) => {
       ? window.location.origin
       : "";
   const shareUrl = `${origin}${asPath}`;
-  console.log(shareUrl);
 
   return (
     <Layouts header={2} footer={2} darkHeader>
