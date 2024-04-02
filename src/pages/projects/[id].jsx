@@ -11,8 +11,6 @@ import {
   getProjectData,
 } from "@library/projects";
 
-import Data from "@data/projects/project-details";
-
 import {
   FacebookShareButton,
   LinkedinShareButton,
