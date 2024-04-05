@@ -12,7 +12,7 @@ date: 2022-2023
 details:
     items:
         - label: "Client:"
-          value: John Smith
+          value: Our Product
 
         - label: "Start:"
           value: Dec 18, 2022

@@ -12,18 +12,104 @@ const Contact = () => {
       {
         title: "Secure Management and Workforce?",
         text: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.",
+        Faqs: [
+          {
+            title:
+              "Q1. What measures do you have in place to ensure the security of our data and information?",
+            text: "We employ a multi-layered approach to data security, including encryption, access controls, and regular security audits. Our systems are designed to meet or exceed industry standards for data protection.",
+          },
+          {
+            title:
+              "Q2. How do you ensure that our sensitive information is protected from unauthorized access?",
+            text: "We utilize advanced authentication methods, such as two-factor authentication to restrict access to sensitive information. Additionally, our security protocols are continuously monitored and updated to address emerging threats.",
+          },
+          {
+            title:
+              "Q3. Can you provide details about your company's security protocols and certifications?",
+            text: "We adhere to rigorous security protocols based on industry best practices and standards, such as ISO 27001 and SOC 2. Our commitment to security is further demonstrated through our certifications and compliance with relevant regulatory requirements.",
+          },
+          {
+            title: "Q4. How do you handle security breaches or incidents?",
+            text: "In the event of a security breach or incident, we have established incident response procedures to swiftly mitigate the threat and minimize the impact on our clients. Our dedicated team of security experts conducts thorough investigations and implements remediation measures to prevent future occurrences.",
+          },
+          {
+            title:
+              "Q5. What steps do you take to ensure the safety and security of our employees and contractors?",
+            text: "Employee and contractor safety is paramount to us. We provide comprehensive training on security awareness and emergency response procedures. Additionally, we conduct regular assessments of workplace safety and security measures to identify and address any vulnerabilities.",
+          },
+          {
+            title:
+              "Q6. How often do you conduct security audits and assessments?",
+            text: "We conduct regular security audits and assessments to evaluate the effectiveness of our security controls and identify areas for improvement. These audits are conducted by both internal teams and third-party security experts to ensure impartiality and thoroughness.",
+          },
+          {
+            title:
+              "Q7. What role does employee training play in maintaining a secure work environment?",
+            text: "Employee training is integral to maintaining a secure work environment. We provide ongoing training and awareness programs to educate employees about cybersecurity best practices, data handling procedures, and potential security threats.",
+          },
+          {
+            title:
+              "Q8. How do you address physical security concerns at our facilities or workplaces?",
+            text: "We implement comprehensive physical security measures, including access controls, surveillance systems, and perimeter security, to protect our facilities and workplaces. Our security personnel are trained to respond effectively to any security incidents or breaches.",
+          },
+          {
+            title:
+              "Q9. Can you explain your approach to risk management and mitigation?",
+            text: "Our approach to risk management involves identifying potential security risks, assessing their likelihood and potential impact, and implementing proactive measures to mitigate or eliminate these risks. We regularly review and update our risk management strategies to adapt to evolving threats.",
+          },
+          {
+            title:
+              "Q10. What type of background checks or screening processes do you implement for your workforce?",
+            text: "We conduct thorough background checks and screening processes for all employees and contractors, including criminal background checks, employment verification, and reference checks. These measures help ensure the integrity and trustworthiness of our workforce.",
+          },
+        ],
       },
       {
-        title: "Logistics Workforce on Track?",
+        title: "Project management and Tracking",
         text: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.",
-      },
-      {
-        title: "Online Courses & Certification?",
-        text: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.",
-      },
-      {
-        title: "Figures and data representative of an organization's?",
-        text: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.",
+        Faqs: [
+          {
+            title: "Q1. Which project management tools do you use?",
+            text: "We primarily use JIRA for project management, but we're also open to exploring other tools based on project requirements.",
+          },
+          {
+            title: "Q2. How do you ensure effective project communication?",
+            text: "We maintain open channels of communication through regular meetings, emails, and collaboration tools like Slack or Microsoft Teams.",
+          },
+          {
+            title: "Q3. What's your approach to project tracking?",
+            text: "We use a combination of Gantt charts, task boards, and progress reports to track project milestones and ensure timely delivery.",
+          },
+          {
+            title: "Q4. How do you handle project deadlines?",
+            text: "We set realistic deadlines and regularly monitor progress to identify potential delays early. If needed, we adjust resources or scope to meet deadlines.",
+          },
+          {
+            title: "Q5. What measures do you take to manage project risks?",
+            text: "We conduct risk assessments at the start of the project and develop mitigation strategies. Throughout the project, we monitor risks and take proactive measures to address them.",
+          },
+          {
+            title: "Q6. How do you allocate resources for projects?",
+            text: "Resource allocation is based on project requirements, team availability, and skillsets. We strive for optimal resource utilization to maximize project efficiency.",
+          },
+          {
+            title: "Q7. Can you describe your project planning process?",
+            text: "Our project planning process involves defining project goals, creating a project timeline, identifying tasks and dependencies, and assigning responsibilities.",
+          },
+          {
+            title: "Q8. What metrics do you use to measure project success?",
+            text: "We use metrics such as project completion time, budget adherence, stakeholder satisfaction, and quality of deliverables to gauge project success.",
+          },
+          {
+            title: "Q9. How do you adapt to changes during a project?",
+            text: "We maintain flexibility in our project plans and are prepared to adjust timelines, resources, or scope as needed to accommodate changes and maintain project momentum.",
+          },
+          {
+            title:
+              "Q10. What role does collaboration play in project management?",
+            text: "Collaboration is essential for successful project management as it fosters teamwork, facilitates communication, and enables efficient problem-solving and decision-making. We prioritize collaboration among team members and stakeholders throughout the project lifecycle.",
+          },
+        ],
       },
     ],
   };
@@ -282,9 +368,14 @@ const Contact = () => {
                       </h5>
                     </Accordion.Header>
                     <Accordion.Body>
-                      <div className="onovo-text">
-                        <div dangerouslySetInnerHTML={{ __html: item.text }} />
-                      </div>
+                      {item.Faqs.map((q, key) => {
+                        return (
+                          <div className="onovo-text">
+                            <h6>{q.title}</h6>
+                            <p>{q.text}</p>
+                          </div>
+                        );
+                      })}
                     </Accordion.Body>
                   </div>
                 </Accordion.Item>

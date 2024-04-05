@@ -141,9 +141,9 @@ const Header2 = ({ darkHeader, cartButton }) => {
 
                 {/* Menu Hamburger */}
                 <a
-                  href="#"
                   className="onovo-menu-btn"
                   style={{ display: "none" }}
+                  onClick={(e) => clickedDesktopMenu(e)}
                 >
                   <span></span>
                 </a>
@@ -174,7 +174,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
                               >
                                 {item.label}
                               </Link>
-                              {item.children && (
+                              {item.children != 0 && (
                                 <i className="icon fas fa-chevron-down" />
                               )}
                               {item.children != 0 && (

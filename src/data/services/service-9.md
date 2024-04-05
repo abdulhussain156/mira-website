@@ -1,9 +1,9 @@
 ---
 #preview details
-image: "/assets/services/mobileappdevelopment.jpeg"
-icon: "/images/serv-icon1.png"
-title: "Mobile App Development"
-short: "Mobile apps that run across different platforms and varying screen sizes. Be it games, e-commerce apps or educational apps, our team is ready to give you a comprehensive solution to stand tall in sheer competition."
+image: "/assets/services/custom software solution.jpeg"
+icon: "/images/serv-icon4.png"
+title: "Customer Software Solutions"
+short: "Off-the-shelf not fitting your requirements? Our custom software solutions incorporate all enterprise, gaming, and e-commerce applications that offer flexibility to do your tasks in your own way and increase efficiency."
 
 #full details
 accordion:
@@ -24,28 +24,28 @@ accordion:
 
 additional:
   enabled: 1
-  content: "<h3>Highest Expectations</h3>
-		        <p>Expect nothing less than apps that set new standards in usability and functionality. Our highest
-  expectations include.</p> 
+  content: "
+    <h3>Highest Expectations</h3>
+		<p>Expect custom solutions that not only meet but exceed your customers' expectations. Our highest
+expectations include.</p>
 		<ul>
       <li>
-      Smooth navigation and interactions
+        Seamless integration with existing systems.
       </li>
       <li>
-      Secure data handling
+        Real-time analytics and insights
+
       </li>
       <li>
-      Regular updates and optimizations
+Scalability to support growing customer base.
       </li>
-      <li>
-      Enterprise Software
-      </li>
+
 		</ul>
   "
 ---
 
 ### Introduction
 
-Our mobile app development team specializes in crafting intuitive and feature-rich apps for both
-iOS and Android platforms. We focus on usability, scalability, and security to create apps that users
-love.
+Our customer software solutions are tailored to enhance customer experiences and drive
+engagement. We develop personalized portals, CRM systems, and analytics tools that empower
+businesses to connect with their customers effectively

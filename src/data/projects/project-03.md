@@ -12,7 +12,7 @@ date: 2021-2023
 details:
     items:
         - label: "Client:"
-          value: MI park
+          value: Our Product
 
         - label: "Start:"
           value: Dec 18, 2022

@@ -58,25 +58,9 @@
         "children": 0
       },
       {
-        "label": "Projects",
+        "label": "Our Projects",
         "link": "/projects",
-        "children": [
-          {
-            "label": "Web App",
-            "link": "/projects",
-            "children": 0
-          },
-          {
-            "label": "Mobile App",
-            "link": "/projects",
-            "children": 0
-          },
-          {
-            "label": "Desktop App",
-            "link": "/projects",
-            "children": 0
-          }
-        ]
+        "children": 0
       },
 
       {

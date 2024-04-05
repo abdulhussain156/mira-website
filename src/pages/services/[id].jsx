@@ -34,11 +34,8 @@ const ServiceDetail = ({ serviceDetail, postData, services }) => {
   });
 
   return (
-    <Layouts header={2} darkHeader>
-      <PageBanner
-        pageTitle={serviceDetail.title}
-        pageDesc={serviceDetail.text}
-      />
+    <Layouts header={2} footer={2} darkHeader>
+      <PageBanner pageTitle={postData.title} pageDesc={postData.short} />
 
       {/* Onovo Service Detail */}
       <section className="onovo-section gap-top-140">
@@ -56,46 +53,6 @@ const ServiceDetail = ({ serviceDetail, postData, services }) => {
                     dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
                   />
                 </div>
-              )}
-
-              {typeof postData.accordion != "undefined" && (
-                <>
-                  {postData.accordion.enabled == 1 && (
-                    <>
-                      <h3>{postData.accordion.title}</h3>
-
-                      {/* Faq items */}
-                      <Accordion>
-                        <div className="onovo-faq-items">
-                          {postData.accordion.items.map((item, key) => (
-                            <Accordion.Item
-                              key={`faq-item-${key}`}
-                              eventKey={`faq-acc-${key}`}
-                            >
-                              <div className="onovo-faq-item onovo-collapse-item">
-                                <Accordion.Header>
-                                  <h5 className="title onovo-collapse-btn">
-                                    <span>{item.heading}</span>
-                                    <i className="arrow" />
-                                  </h5>
-                                </Accordion.Header>
-                                <Accordion.Body>
-                                  <div className="onovo-text">
-                                    <div
-                                      dangerouslySetInnerHTML={{
-                                        __html: item.content,
-                                      }}
-                                    />
-                                  </div>
-                                </Accordion.Body>
-                              </div>
-                            </Accordion.Item>
-                          ))}
-                        </div>
-                      </Accordion>
-                    </>
-                  )}
-                </>
               )}
 
               {typeof postData.additional != "undefined" && (

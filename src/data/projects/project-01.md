@@ -1,6 +1,6 @@
 ---
 #preview
-title: Askona Sleep U8
+title: Smartsleep Control App
 image: /assets/project/details/akonaCover.png
 category: Mobile App
 category_slug: Mobile App

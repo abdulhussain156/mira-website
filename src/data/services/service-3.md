@@ -1,9 +1,9 @@
 ---
 #preview details
-image: "/images/posts2.jpg"
+image: "/assets/services/enterprise.jpeg"
 icon: "/images/serv-icon5.png"
-title: "Creative Direction"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+title: "Enterprise Software Solution"
+short: "With vast experience in development and implementation of Enterprise solutions, MIRA has an expert team of developers and consultant to take your business to the next level. We offer exclusive services for SAP with add-ons integration."
 
 #full details
 accordion:
@@ -26,26 +26,27 @@ additional:
   enabled: 1
   content: "
     <h3>Highest Expectations</h3>
-		<p>We successfully cope with tasks of varying complexity, provide longterm guarantees and regularly master new technologies. Our portfolio includes <span style='text-decoration: underline;'>dozens of successfully</span> completed projects of houses of different stores, with high–quality finishes and good repairs.</p>
+		<p>Our highest expectation is to deliver enterprise-grade software that meets your current requirements
+and can adapt to future challenges. Expectations include:</p>
 		<ul>
       <li>
-        Better defined projects, reducing risk.
+        Scalable architecture.
       </li>
       <li>
-        We provide legislative compliance.
+        Customizable modules
       </li>
       <li>
-        Cost savings by getting expert advice.
+        Advanced security features.
       </li>
       <li>
-        Realistic pricing and project timescales.
+        Cloud-Based Solutions.
       </li>
 		</ul>
   "
 ---
 
-### Behind the Branding of High Calgary’s Community
+### Introduction
 
-Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.
-
-In addition to construction consultancy services **Bureau Veritas is a global leader in testing**, inspection and certification (TIC) and we have more than 190+ years of experience meaning that we also can assist you in other areas of your business if needed.   
+Our enterprise software solutions are designed to streamline your business processes, enhance
+productivity, and drive innovation. We prioritize scalability, flexibility, and robust security measures
+to meet your organization's unique needs.

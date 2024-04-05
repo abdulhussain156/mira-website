@@ -1,9 +1,9 @@
 ---
 #preview details
-image: "/images/post3.jpg"
+image: "/assets/services/cloudsolutuions.jpeg"
 icon: "/images/serv-icon3.png"
-title: "Machine Learning / AI"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+title: "Cloud Based Solution"
+short: "With Mira's managed cloud services enjoy secure, scalable solutions along with storage, processing, and app deployment. We hold expertise in working with all major cloud platforms like GCP, GKE, AWS, and Azure."
 
 #full details
 accordion:
@@ -26,26 +26,30 @@ additional:
   enabled: 1
   content: "
     <h3>Highest Expectations</h3>
-		<p>We successfully cope with tasks of varying complexity, provide longterm guarantees and regularly master new technologies. Our portfolio includes <span style='text-decoration: underline;'>dozens of successfully</span> completed projects of houses of different stores, with high–quality finishes and good repairs.</p>
+		<p>Our highest expectation revolves around delivering cloud solutions that optimize performance and
+minimize downtime. Expectations include:</p>
 		<ul>
       <li>
-        Better defined projects, reducing risk.
+        High availability and redundancy
+
       </li>
       <li>
-        We provide legislative compliance.
+Scalability on demand
+
       </li>
       <li>
-        Cost savings by getting expert advice.
+Data encryption and compliance
+
       </li>
       <li>
-        Realistic pricing and project timescales.
+ UI/UX Design Services
       </li>
 		</ul>
   "
 ---
 
-### Behind the Branding of High Calgary’s Community
+### Introduction
 
-Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.
-
-In addition to construction consultancy services **Bureau Veritas is a global leader in testing**, inspection and certification (TIC) and we have more than 190+ years of experience meaning that we also can assist you in other areas of your business if needed.   
+Leverage the power of the cloud with our customized solutions that offer scalability, reliability, and
+cost-effectiveness. We ensure seamless migration, integration, and management of cloud
+infrastructure for your business.

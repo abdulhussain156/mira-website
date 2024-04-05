@@ -1,9 +1,9 @@
 ---
 #preview details
-image: "/assets/services/mobileappdevelopment.jpeg"
-icon: "/images/serv-icon1.png"
-title: "Mobile App Development"
-short: "Mobile apps that run across different platforms and varying screen sizes. Be it games, e-commerce apps or educational apps, our team is ready to give you a comprehensive solution to stand tall in sheer competition."
+image: "/assets/services/devops.jpeg"
+icon: "/images/serv-icon4.png"
+title: "DevOps & CI Services"
+short: "Our DevOps & CI solutions are aimed at integrating the process of development and operations. With our automation into the deployment process catch errors in the early stages and ensure rapid delivery of your applications."
 
 #full details
 accordion:
@@ -24,21 +24,23 @@ accordion:
 
 additional:
   enabled: 1
-  content: "<h3>Highest Expectations</h3>
-		        <p>Expect nothing less than apps that set new standards in usability and functionality. Our highest
-  expectations include.</p> 
+  content: "
+    <h3>Highest Expectations</h3>
+		<p>Our highest expectation is to establish a robust DevOps culture that promotes continuous
+integration, delivery, and improvement. Expectations include.</p>
 		<ul>
       <li>
-      Smooth navigation and interactions
+        Automated testing and deployment pipelines
+
       </li>
       <li>
-      Secure data handling
+Infrastructure as code (IaC) practices
+      </li>
+      <li> 
+      Monitoring and alerting systems
       </li>
       <li>
-      Regular updates and optimizations
-      </li>
-      <li>
-      Enterprise Software
+Customer Software Solutions
       </li>
 		</ul>
   "
@@ -46,6 +48,6 @@ additional:
 
 ### Introduction
 
-Our mobile app development team specializes in crafting intuitive and feature-rich apps for both
-iOS and Android platforms. We focus on usability, scalability, and security to create apps that users
-love.
+Our DevOps and CI services are designed to streamline your development workflows, improve
+collaboration, and accelerate time-to-market. We automate processes, ensure code quality, and
+facilitate seamless deployments.
