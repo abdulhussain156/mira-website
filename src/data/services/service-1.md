@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/assets/services/webdevelopment.jpg"
+image: "/images/web.jpeg"
 icon: "/images/serv-icon6.png"
 title: "Web Development"
 short: "Build an attractive website packed with modern features. Our web developers master the craft of designing, building, and maintaining e-commerce websites and web-based applications built on modern tech stacks."
@@ -58,9 +58,6 @@ function flawlessly. Expectations include.</p>
       </li>
       <li>
 Cross-browser compatibility
-      </li>
-      <li>
- Mobile App Development
       </li>
 		</ul>
   "

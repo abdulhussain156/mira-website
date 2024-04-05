@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/assets/services/mobileappdevelopment.jpeg"
+image: "/images/mobile.jpeg"
 icon: "/images/serv-icon1.png"
 title: "Mobile App Development"
 short: "Mobile apps that run across different platforms and varying screen sizes. Be it games, e-commerce apps or educational apps, our team is ready to give you a comprehensive solution to stand tall in sheer competition."
@@ -36,9 +36,6 @@ additional:
       </li>
       <li>
       Regular updates and optimizations
-      </li>
-      <li>
-      Enterprise Software
       </li>
 		</ul>
   "

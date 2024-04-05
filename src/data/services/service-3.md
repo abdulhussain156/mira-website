@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/assets/services/enterprise.jpeg"
+image: "/images/software.jpeg"
 icon: "/images/serv-icon5.png"
 title: "Enterprise Software Solution"
 short: "With vast experience in development and implementation of Enterprise solutions, MIRA has an expert team of developers and consultant to take your business to the next level. We offer exclusive services for SAP with add-ons integration."
@@ -37,9 +37,6 @@ and can adapt to future challenges. Expectations include:</p>
       </li>
       <li>
         Advanced security features.
-      </li>
-      <li>
-        Cloud-Based Solutions.
       </li>
 		</ul>
   "

@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/assets/services/miantenance and support.jpg"
+image: "/images/support.jpeg"
 icon: "/images/serv-icon4.png"
 title: "Maintenance and Support"
 short: "Robust maintenance and support services allow the software, apps, products, and websites to work efficiently, flawlessly and evolve with time. Get timely updates, fix bugs, and address issues that affect your workflow."

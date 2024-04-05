@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/assets/services/ui_ux.png"
+image: "/images/ui.jpeg"
 icon: "/images/serv-icon4.png"
 title: "UI/UX Design"
 short: "We hold expertise in creating not only visually aesthetic interfaces, but also user-friendly ones which will help improve the user experience. A compelling UI/UX design based on in-depth research on user behavior and needs."

@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/assets/services/devops.jpeg"
+image: "/images/devops.jpeg"
 icon: "/images/serv-icon4.png"
 title: "DevOps & CI Services"
 short: "Our DevOps & CI solutions are aimed at integrating the process of development and operations. With our automation into the deployment process catch errors in the early stages and ensure rapid delivery of your applications."
@@ -39,9 +39,7 @@ Infrastructure as code (IaC) practices
       <li> 
       Monitoring and alerting systems
       </li>
-      <li>
-Customer Software Solutions
-      </li>
+
 		</ul>
   "
 ---

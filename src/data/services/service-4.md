@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/assets/services/cloudsolutuions.jpeg"
+image: "/images/cloud.jpeg"
 icon: "/images/serv-icon3.png"
 title: "Cloud Based Solution"
 short: "With Mira's managed cloud services enjoy secure, scalable solutions along with storage, processing, and app deployment. We hold expertise in working with all major cloud platforms like GCP, GKE, AWS, and Azure."
@@ -39,10 +39,6 @@ Scalability on demand
       </li>
       <li>
 Data encryption and compliance
-
-      </li>
-      <li>
- UI/UX Design Services
       </li>
 		</ul>
   "

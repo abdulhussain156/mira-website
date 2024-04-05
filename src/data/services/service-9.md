@@ -1,8 +1,8 @@
 ---
 #preview details
-image: "/assets/services/custom software solution.jpeg"
+image: "/images/custom.jpeg"
 icon: "/images/serv-icon4.png"
-title: "Customer Software Solutions"
+title: "Custom Software Solutions"
 short: "Off-the-shelf not fitting your requirements? Our custom software solutions incorporate all enterprise, gaming, and e-commerce applications that offer flexibility to do your tasks in your own way and increase efficiency."
 
 #full details
