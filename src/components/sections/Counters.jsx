@@ -1,7 +1,10 @@
+import { useTranslate } from "@/src/contexts/TranslateContext";
 import Data from "@data/sections/counters.json";
 import CountUp from "react-countup";
 
 const CountersSection = () => {
+  const { t } = useTranslate();
+
   return (
     <>
       {/* Onovo Numbers */}
@@ -25,10 +28,10 @@ const CountersSection = () => {
                   </div>
                   {item.after != "" && (
                     <div className="num-after onovo-text-white">
-                      {item.after}
+                      {t(item.after)}
                     </div>
                   )}
-                  <div className="label">{item.label}</div>
+                  <div className="label">{t(item.label)}</div>
                 </div>
               </div>
             ))}

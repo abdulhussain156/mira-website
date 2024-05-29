@@ -2,8 +2,11 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import appData from "@data/app.json";
 import { headerSticky } from "@common/utilits";
+import { useTranslate } from "@/src/contexts/TranslateContext";
 
 const DefaultHeader = ({ darkHeader, cartButton }) => {
+  const { t } = useTranslate();
+
   const navItems = [];
 
   appData.header.menu.forEach((item, index) => {
@@ -128,7 +131,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                                 }
                                 href={item.link}
                               >
-                                {item.label}
+                                {t(item.label)}
                               </Link>
                               {item.children != 0 && (
                                 <i className="icon fas fa-chevron-down" />
@@ -141,7 +144,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                                         className="onovo-lnk lnk--active"
                                         href={subitem.link}
                                       >
-                                        {subitem.label}
+                                        {t(subitem.label)}
                                       </Link>
                                     </li>
                                   ))}
@@ -163,7 +166,7 @@ const DefaultHeader = ({ darkHeader, cartButton }) => {
                 >
                   <span>
                     <span className="onovo-lnk lnk--active">
-                      {appData.header.button.label}
+                      {t(appData.header.button.label)}
                     </span>
                   </span>
                   <i className="arrow">
