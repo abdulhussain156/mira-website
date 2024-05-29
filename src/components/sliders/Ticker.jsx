@@ -3,8 +3,11 @@ import Link from "next/link";
 
 import { sliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslate } from "@/src/contexts/TranslateContext";
 
 const TickerSlider = () => {
+  const { t } = useTranslate();
+
   return (
     <>
       {/* Onovo Ticker */}
@@ -19,7 +22,7 @@ const TickerSlider = () => {
               <SwiperSlide key={`ticker-slide-${key}`} className="swiper-slide">
                 <h5 className="title onovo-text-white">
                   <Link href={item.link}>
-                    <span>{item.label}</span>
+                    <span>{t(item.label)}</span>
                   </Link>
                 </h5>
               </SwiperSlide>
