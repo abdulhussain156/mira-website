@@ -1,6 +1,9 @@
+import { useTranslate } from "@/src/contexts/TranslateContext";
 import Data from "@data/sections/partners.json";
 
 const PartnersSection = ({ paddingTop }) => {
+  const { t } = useTranslate();
+
   return (
     <>
       {/* Onovo Brands */}
@@ -13,10 +16,10 @@ const PartnersSection = ({ paddingTop }) => {
           {/* Heading */}
           <div className="onovo-heading gap-bottom-40">
             <div className="onovo-subtitle-1">
-              <span dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
+              <span dangerouslySetInnerHTML={{ __html: t(Data.subtitle) }} />
             </div>
             <h2 className="onovo-title-2">
-              <span dangerouslySetInnerHTML={{ __html: Data.title }} />
+              <span dangerouslySetInnerHTML={{ __html: t(Data.title) }} />
             </h2>
           </div>
 
@@ -39,11 +42,11 @@ const PartnersSection = ({ paddingTop }) => {
                         src={item.image}
                         width="285"
                         height="200"
-                        alt={item.alt}
+                        alt={t(item.alt)}
                       />
                     </span>
                     <span className="label onovo-white-black">
-                      Visit Website
+                      {t("Visit Website")}
                     </span>
                   </a>
                 </div>

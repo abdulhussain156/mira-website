@@ -6,12 +6,14 @@ import "../styles/scss/style.scss";
 import "../styles/globals.css";
 
 import { register } from "swiper/element/bundle";
+import { TranslateProvider } from "../contexts/TranslateContext";
+import "../components/i18n";
 // register Swiper custom elements
 register();
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <TranslateProvider>
       <Head>
         {/* seo begin */}
         <title>{appData.settings.siteName}</title>
@@ -21,7 +23,7 @@ function MyApp({ Component, pageProps }) {
         {/* seo end */}
       </Head>
       <Component {...pageProps} />
-    </>
+    </TranslateProvider>
   );
 }
 

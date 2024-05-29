@@ -1,7 +1,9 @@
+import { useTranslate } from "@/src/contexts/TranslateContext";
 import Data from "@data/sections/team.json";
 import Link from "next/link";
 
 const TeamSection = ({ team }) => {
+  const { t } = useTranslate();
   return (
     <>
       {/* Onovo Team */}
@@ -10,10 +12,10 @@ const TeamSection = ({ team }) => {
           {/* Heading */}
           <div className="onovo-heading align-center gap-bottom-40">
             <div className="onovo-subtitle-1">
-              <span>{Data.subtitle}</span>
+              <span>{t(Data.subtitle)}</span>
             </div>
             <h2 className="onovo-title-2">
-              <span dangerouslySetInnerHTML={{ __html: Data.title }} />
+              <span dangerouslySetInnerHTML={{ __html: t(Data.title) }} />
             </h2>
           </div>
 
@@ -34,13 +36,13 @@ const TeamSection = ({ team }) => {
                       <h5 className="title">
                         <Link href={`/team/${item.id}`} className="onovo-lnk">
                           <span data-splitting data-onovo-scroll>
-                            {item.name}
+                            {t(item.name)}
                           </span>
                         </Link>
                       </h5>
                       <div className="onovo-subtitle-1">
                         <span data-splitting data-onovo-scroll>
-                          {item.role}
+                          {t(item.role)}
                         </span>
                       </div>
                       <div className="onovo-social-1">
@@ -52,7 +54,7 @@ const TeamSection = ({ team }) => {
                               <a
                                 className="onovo-social-link onovo-hover-2"
                                 href={link.link}
-                                title={link.title}
+                                title={t(link.title)}
                                 target="_blank"
                               >
                                 <i aria-hidden="true" className={link.icon} />
@@ -69,12 +71,12 @@ const TeamSection = ({ team }) => {
                           src={item.image}
                           width="350"
                           height="530"
-                          alt={item.name}
+                          alt={t(item.name)}
                         />
                       </Link>
                     </div>
                     <div className="num onovo-text-white">
-                      <span>{item.first_letter}</span>
+                      <span>{t(item.first_letter)}</span>
                     </div>
                   </div>
                 </div>

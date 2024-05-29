@@ -1,7 +1,9 @@
+import { useTranslate } from "@/src/contexts/TranslateContext";
 import Data from "@data/sections/about.json";
 import Link from "next/link";
 
 const AboutSection = () => {
+  const { t } = useTranslate();
   return (
     <>
       {/* Onovo About */}
@@ -14,10 +16,12 @@ const AboutSection = () => {
                   {/* Heading */}
                   <div className="onovo-heading gap-bottom-40">
                     <div className="onovo-subtitle-1">
-                      <span>{Data.subtitle}</span>
+                      <span>{t(Data.subtitle)}</span>
                     </div>
                     <h2 className="onovo-title-2">
-                      <span dangerouslySetInnerHTML={{ __html: Data.title }} />
+                      <span
+                        dangerouslySetInnerHTML={{ __html: t(Data.title) }}
+                      />
                     </h2>
                   </div>
                 </div>
@@ -25,10 +29,10 @@ const AboutSection = () => {
                   {/* Number */}
                   <div className="onovo-number onovo-circle-text mrg-left">
                     <div className="num onovo-text-white">
-                      <span>{Data.number.value}</span>
+                      <span>{t(Data.number.value)}</span>
                     </div>
                     <div className="label onovo-text-black onovo-circle-text-label">
-                      {Data.number.label}
+                      {t(Data.number.label)}
                     </div>
                   </div>
                 </div>
@@ -41,8 +45,8 @@ const AboutSection = () => {
                     key={`about-item-${key}`}
                     className="col-xs-12 col-sm-12 col-md-6 col-lg-6"
                   >
-                    <h5 className="text-uppercase">{item.title}</h5>
-                    <p dangerouslySetInnerHTML={{ __html: item.text }} />
+                    <h5 className="text-uppercase">{t(item.title)}</h5>
+                    <p dangerouslySetInnerHTML={{ __html: t(item.text) }} />
                     {item.button != undefined && (
                       <Link
                         className="onovo-btn onovo-hover-btn"
@@ -51,7 +55,7 @@ const AboutSection = () => {
                         <i className="arrow">
                           <span />
                         </i>
-                        <span>{item.button.label}</span>
+                        <span>{t(item.button.label)}</span>
                       </Link>
                     )}
                   </div>
@@ -62,10 +66,10 @@ const AboutSection = () => {
               {/* Number */}
               <div className="onovo-number onovo-circle-text mrg-right">
                 <div className="num onovo-text-white">
-                  <span>{Data.number.value}</span>
+                  <span>{t(Data.number.value)}</span>
                 </div>
                 <div className="label onovo-text-black onovo-circle-text-label">
-                  {Data.number.label}
+                  {t(Data.number.label)}
                 </div>
               </div>
             </div>

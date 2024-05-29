@@ -1,10 +1,12 @@
 import { sliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import Data from "@data/sliders/hero-4";
 import Link from "next/link";
+import { useTranslate } from "@/src/contexts/TranslateContext"; // Import the translation hook
 
 const Hero4Slider = () => {
+  const { t } = useTranslate(); // Initialize the translation function
+
   return (
     <>
       {/* Onovo Hero Parallax */}
@@ -23,12 +25,12 @@ const Hero4Slider = () => {
                 />
                 <div className="container">
                   <div className="onovo-subtitle-1 onovo-text-white">
-                    <span data-splitting>{item.subtitle}</span>
+                    <span data-splitting>{t(item.subtitle)}</span>
                   </div>
                   <div className="title onovo-text-white">
                     <span
                       data-splitting
-                      dangerouslySetInnerHTML={{ __html: item.title }}
+                      dangerouslySetInnerHTML={{ __html: t(item.title) }}
                     />
                     <span
                       className="sep"
@@ -45,7 +47,7 @@ const Hero4Slider = () => {
                       <i className="arrow">
                         <span></span>
                       </i>
-                      <span>{item.button.label}</span>
+                      <span>{t(item.button.label)}</span>
                     </Link>
                   </div>
                 </div>

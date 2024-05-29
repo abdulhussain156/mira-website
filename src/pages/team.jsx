@@ -6,13 +6,16 @@ import { getSortedTeamData } from "@library/team";
 
 import CallToActionSection from "@components/sections/CallToAction";
 import PartnersSection from "@components/sections/Partners";
+import { useTranslate } from "../contexts/TranslateContext";
 
 const Team = (props) => {
+  const { t } = useTranslate();
+
   return (
     <Layouts header={2} footer={2} darkHeader>
       <PageBanner
-        pageTitle={"Our Team"}
-        pageDesc={"Meet our creativity company family."}
+        pageTitle={t("Our Team")}
+        pageDesc={t("Meet our creativity company family.")}
       />
 
       {/* Onovo Team */}
@@ -33,7 +36,7 @@ const Team = (props) => {
                       data-onovo-scroll
                     >
                       <Link href={`/team/${item.id}`}>
-                        <img src={item.image} alt={item.name} />
+                        <img src={item.image} alt={t(item.name)} />
                       </Link>
                       <div className="onovo-social-2">
                         <ul>
@@ -43,7 +46,7 @@ const Team = (props) => {
                                 key={`teamsocial-item-${link_key}`}
                                 className="onovo-social-link onovo-hover-2"
                                 href={link.link}
-                                title={link.title}
+                                title={t(link.title)}
                                 target="_blank"
                               >
                                 <i aria-hidden="true" className={link.icon} />
@@ -57,13 +60,13 @@ const Team = (props) => {
                       <h5 className="title">
                         <Link href={`/team/${item.id}`} className="onovo-lnk">
                           <span data-splitting data-onovo-scroll>
-                            {item.name}
+                            {t(item.name)}
                           </span>
                         </Link>
                       </h5>
                       <div className="onovo-subtitle-1">
                         <span data-splitting data-onovo-scroll>
-                          {item.role}
+                          {t(item.role)}
                         </span>
                       </div>
                     </div>

@@ -12,13 +12,16 @@ import VideoSection from "@components/sections/Video";
 import CallToActionSection from "@components/sections/CallToAction";
 import PartnersSection from "@components/sections/Partners";
 import ServicesSection from "../components/sections/Services";
+import { useTranslate } from "../contexts/TranslateContext";
 
 const Services = (props) => {
+  const { t } = useTranslate();
+
   return (
     <Layouts header={2} footer={2} darkHeader>
       <PageBanner
-        pageTitle={"Our Services"}
-        pageDesc={"Our values and vaulted us to the top of our industry."}
+        pageTitle={t("Our Services")}
+        pageDesc={t("Our values and vaulted us to the top of our industry.")}
       />
 
       <ServicesSection paddingtop />
@@ -33,10 +36,10 @@ const Services = (props) => {
           {/* Heading */}
           <div className="onovo-heading gap-bottom-40">
             <div className="onovo-subtitle-1">
-              <span>What we do</span>
+              <span>{t("What we do")}</span>
             </div>
             <h2 className="onovo-title-2">
-              <span>We’re a full-service agency</span>
+              <span>{t("We’re a full-service agency")}</span>
             </h2>
           </div>
 
@@ -50,17 +53,17 @@ const Services = (props) => {
                 <Link href={`/services/${item.id}`}>
                   <div className="onovo-service-item-list-inner">
                     <div className="image onovo-hover-1">
-                      <img src={item.image} alt={item.title} />
+                      <img src={item.image} alt={t(item.title)} />
                     </div>
                     <div className="num">
                       <span> 0{key + 1}. </span>
                     </div>
                     <h5 className="title">
-                      <span>{item.title}</span>
+                      <span>{t(item.title)}</span>
                     </h5>
                     <div className="onovo-text">
                       <div>
-                        <p>{item.text}</p>
+                        <p>{t(item.text)}</p>
                       </div>
                     </div>
                   </div>

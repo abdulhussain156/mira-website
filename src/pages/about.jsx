@@ -11,8 +11,8 @@ import { circleText } from "@common/utilits";
 import PageBanner from "@components/PageBanner";
 import Team2Section from "@components/sections/Team2";
 import PartnersSection from "@components/sections/Partners";
-import AwardsSection from "@components/sections/Awards";
 import Services4Section from "@components/sections/Services4";
+import { useTranslate } from "../contexts/TranslateContext";
 
 const HistorySlider = dynamic(() => import("@components/sliders/History"), {
   ssr: false,
@@ -23,6 +23,8 @@ const Testimonial2Slider = dynamic(
 );
 
 const About = (props) => {
+  const { t } = useTranslate();
+
   useEffect(() => {
     circleText();
   }, []);
@@ -39,8 +41,8 @@ const About = (props) => {
   return (
     <Layouts header={2} footer={2} darkHeader>
       <PageBanner
-        pageTitle={"About Us"}
-        pageDesc={"MIRA Empowering Future with Digital Solutions!"}
+        pageTitle={t("About Us")}
+        pageDesc={t("MIRA Empowering Future with Digital Solutions!")}
       />
 
       {/* Onovo About */}
@@ -51,24 +53,27 @@ const About = (props) => {
               {/* Heading */}
               <div className="onovo-heading gap-bottom-60">
                 <div className="onovo-subtitle-1">
-                  <span> Welcome to Onovo </span>
+                  <span> {t("Welcome to Onovo")} </span>
                 </div>
                 <h2 className="onovo-title-2">
                   <span>
-                    {" "}
-                    We are a digital agency, <br />
-                    passionate about building <br />
-                    and designing brands{" "}
+                    {t("We are a digital agency,")} <br />
+                    {t("passionate about building")} <br />
+                    {t("and designing brands")}
                   </span>
                 </h2>
                 <div className="onovo-text">
                   <p>
-                    From the moment our company was founded, we have helped our
-                    clients find{" "}
-                    <strong>exceptional solutions for their businesses</strong>,
-                    creating memorable brands and digital products. Our
-                    expertise grows with each year, and our accumulated
-                    experience.{" "}
+                    {t(
+                      "From the moment our company was founded, we have helped our clients find"
+                    )}
+                    <strong>
+                      {t("exceptional solutions for their businesses")}
+                    </strong>
+                    ,
+                    {t(
+                      "creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience."
+                    )}
                   </p>
                 </div>
               </div>
@@ -96,7 +101,7 @@ const About = (props) => {
                   />
                 </div>
                 <div className="num-after onovo-text-white"> + </div>
-                <div className="label"> Team members </div>
+                <div className="label"> {t("Team members")} </div>
               </div>
             </div>
 
@@ -115,7 +120,7 @@ const About = (props) => {
                   />
                 </div>
                 <div className="num-after onovo-text-white"> + </div>
-                <div className="label"> Completed projects </div>
+                <div className="label"> {t("Completed projects")} </div>
               </div>
             </div>
 
@@ -133,8 +138,8 @@ const About = (props) => {
                     scrollSpyOnce={true}
                   />
                 </div>
-                <div className="num-after onovo-text-white"> M </div>
-                <div className="label"> Lines of code </div>
+                <div className="num-after onovo-text-white"> {t("M")} </div>
+                <div className="label"> {t("Lines of code")} </div>
               </div>
             </div>
           </div>
@@ -165,49 +170,25 @@ const About = (props) => {
           {/* Description */}
           <div className="row gap-top-100">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-              <h5 className="text-uppercase">Our Mission</h5>
+              <h5 className="text-uppercase">{t("Our Mission")}</h5>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-              Our story unfolds at MIRA Dev, where a cohesive team of software
-              experts is fueled by a collective passion for innovative software
-              solutions. Specializing in web apps, mobile apps, but also in
-              enterprise resource planning (ERP), SAP Business One (SAPB1), and
-              Point of Sale (POS) systems, we stand as pioneers in reshaping the
-              digital landscape of business operations. <br />
-              Though it's been just a year since we embarked on the MIRA Dev
-              journey, we've already achieved remarkable milestones. However,
-              our vision extends far beyond these accomplishments. We are poised
-              to break new ground, pushing the boundaries of innovation and
-              setting new standards in the software industry. Our commitment to
-              excellence drives us forward as we continue to evolve, adapt, and
-              conquer new horizons. With every challenge we overcome and every
-              goal we surpass, we reaffirm our dedication to shaping a brighter
-              future for MIRA Dev and the world of software solutions. <br />
-              Our journey at MIRA Dev is marked by a steadfast commitment to
-              growth and excellence. What began as a close-knit group of
-              professionals has blossomed into a thriving community, dedicated
-              to pushing the boundaries of software innovation. <br />
+              {t(
+                "Our story unfolds at MIRA Dev, where a cohesive team of software experts is fueled by a collective passion for innovative software solutions. Specializing in web apps, mobile apps, but also in enterprise resource planning (ERP), SAP Business One (SAPB1), and Point of Sale (POS) systems, we stand as pioneers in reshaping the digital landscape of business operations Though it's been just a year since we embarked on the MIRA Dev journey, we've already achieved remarkable milestones. However, our vision extends far beyond these accomplishments. We are poised to break new ground, pushing the boundaries of innovation and setting new standards in the software industry. Our commitment to excellence drives us forward as we continue to evolve, adapt, and conquer new horizons. With every challenge we overcome and every goal we surpass, we reaffirm our dedication to shaping a brighter future for MIRA Dev and the world of software solutions. Our journey at MIRA Dev is marked by a steadfast commitment to growth and excellence. What began as a close-knit group of professionals has blossomed into a thriving community, dedicated to pushing the boundaries of software innovation."
+              )}
+              <br /> <br />
             </div>
           </div>
 
           {/* Description */}
           <div className="row gap-top-60">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-              <h5 className="text-uppercase">Our Goal</h5>
+              <h5 className="text-uppercase">{t("Our Goal")}</h5>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-              Driven by a deep-seated trust and shared vision, we forge ahead
-              with each project, crafting bespoke solutions that empower
-              businesses and individuals alike. With a focus on real-time
-              functionality and cutting-edge technology, we elevate processes
-              and drive tangible results. <br /> At MIRA Dev, we understand the
-              power of SEO in enhancing online visibility and driving organic
-              traffic. By optimizing every aspect of our solutions, we ensure
-              that our clients stand out in the digital landscape, commanding
-              attention and achieving their goals. Join us on our journey as we
-              continue to script a compelling narrative for MIRA Dev, shaping
-              the future of software solutions with innovation, expertise, and a
-              touch of passion and dedication.
+              {t(
+                "Driven by a deep-seated trust and shared vision, we forge ahead with each project, crafting bespoke solutions that empower businesses and individuals alike. With a focus on real-time functionality and cutting-edge technology, we elevate processes and drive tangible results. At MIRA Dev, we understand the power of SEO in enhancing online visibility and driving organic traffic. By optimizing every aspect of our solutions, we ensure that our clients stand out in the digital landscape, commanding attention and achieving their goals. Join us on our journey as we continue to script a compelling narrative for MIRA Dev, shaping the future of software solutions with innovation, expertise, and a touch of passion and dedication."
+              )}
             </div>
           </div>
 

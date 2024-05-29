@@ -2,8 +2,25 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import appData from "@data/app.json";
 import { headerSticky } from "@common/utilits";
+import { useTranslate } from "@/src/contexts/TranslateContext";
 
 const Header2 = ({ darkHeader, cartButton }) => {
+  const { t, language, handleTranslate } = useTranslate();
+  const [translate, setTranslate] = useState(language);
+
+  useEffect(
+    function () {
+      setTranslate(language);
+    },
+    [language]
+  );
+
+  const toggleLanguage = () => {
+    const newLanguage = translate === "en" ? "ar" : "en";
+    setTranslate(newLanguage);
+    handleTranslate(newLanguage);
+  };
+
   const navItems = [];
 
   appData.header.menu.forEach((item, index) => {
@@ -115,7 +132,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
                           }
                           href={item.link}
                         >
-                          {item.label}
+                          {t(item.label)}
                         </Link>
                         {item.children != 0 && (
                           <i className="icon fas fa-chevron-down" />
@@ -128,7 +145,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
                                   className="onovo-lnk lnk--active"
                                   href={subitem.link}
                                 >
-                                  {subitem.label}
+                                  {t(subitem.label)}
                                 </Link>
                               </li>
                             ))}
@@ -172,7 +189,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
                                 }
                                 href={item.link}
                               >
-                                {item.label}
+                                {t(item.label)}
                               </Link>
                               {item.children != 0 && (
                                 <i className="icon fas fa-chevron-down" />
@@ -185,7 +202,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
                                         className="onovo-lnk lnk--active"
                                         href={subitem.link}
                                       >
-                                        {subitem.label}
+                                        {t(subitem.label)}
                                       </Link>
                                     </li>
                                   ))}
@@ -201,12 +218,16 @@ const Header2 = ({ darkHeader, cartButton }) => {
               </div>
               <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center align-right hide-on-mobile-extra">
                 {/* Button */}
-                <Link
+                <button
                   className="onovo-btn onovo-hover-btn btn--active"
-                  href={appData.header.button2.link}
+                  onClick={toggleLanguage}
                 >
-                  <span>{appData.header.button2.label}</span>
-                </Link>
+                  <span>
+                    {language === "en"
+                      ? "Translate to Arabic"
+                      : "Translate to English"}
+                  </span>
+                </button>
               </div>
             </div>
           </div>

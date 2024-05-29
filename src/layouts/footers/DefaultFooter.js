@@ -3,8 +3,11 @@ import appData from "@data/app.json";
 import { useEffect } from "react";
 import ImageView from "@components/ImageView";
 import { footerSticky } from "@common/utilits";
+import { useTranslate } from "@/src/contexts/TranslateContext"; // Import the translation hook
 
 const DefaultFooter = () => {
+  const { t } = useTranslate(); // Initialize the translation function
+
   useEffect(() => {
     footerSticky();
   }, []);
@@ -19,19 +22,22 @@ const DefaultFooter = () => {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 {/* Description */}
                 <div className="onovo-text onovo-text-white">
-                  <h5>Information</h5>
+                  <h5>{t("Information")}</h5>
                   <p style={{ opacity: "0.6" }}>
-                    From the moment our company was founded, we have helped our
-                    clients find exceptional solutions{" "}
-                    <strong>for their businesses</strong>.{" "}
+                    {t(
+                      "From the moment our company was founded, we have helped our clients find exceptional solutions"
+                    )}{" "}
+                    <strong>{t("for their businesses")}</strong>.
                   </p>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 {/* Description */}
                 <div className="onovo-text onovo-text-white">
-                  <h5>Get in Touch</h5>
-                  <p style={{ opacity: "0.6" }}>Waitzstraße 92 24118 Kiel</p>
+                  <h5>{t("Get in Touch")}</h5>
+                  <p style={{ opacity: "0.6" }}>
+                    {t("Waitzstraße 92 24118 Kiel")}
+                  </p>
                   <p style={{ opacity: "0.6" }}>
                     <a
                       href="tel:+10204302973"
@@ -73,7 +79,7 @@ const DefaultFooter = () => {
                 {/* Copyright */}
                 <div className="copyright onovo-text-white">
                   <div
-                    dangerouslySetInnerHTML={{ __html: appData.footer.copy }}
+                    dangerouslySetInnerHTML={{ __html: t(appData.footer.copy) }}
                   />
                 </div>
               </div>

@@ -4,8 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Data from "@data/sliders/hero-2";
 import Link from "next/link";
 import SvgComponent from "./SvgComponent";
+import { useTranslate } from "@/src/contexts/TranslateContext";
 
 const Hero2Slider = () => {
+  const { t } = useTranslate();
+
   return (
     <>
       {/* Onovo Hero */}
@@ -42,14 +45,14 @@ const Hero2Slider = () => {
                         <h1 className="title onovo-text-white">
                           <span
                             data-splitting
-                            dangerouslySetInnerHTML={{ __html: item.title }}
+                            dangerouslySetInnerHTML={{ __html: t(item.title) }}
                           />
                         </h1>
                         <div className="text">
                           <div className="subtitle onovo-text-white subtitle--left">
                             <div
                               data-splitting
-                              dangerouslySetInnerHTML={{ __html: item.text }}
+                              dangerouslySetInnerHTML={{ __html: t(item.text) }}
                             />
                           </div>
                           <div className="onovo-bts">
@@ -60,7 +63,7 @@ const Hero2Slider = () => {
                               <i className="arrow">
                                 <span />
                               </i>
-                              <span>{item.button.label}</span>
+                              <span>{t(item.button.label)}</span>
                             </Link>
                           </div>
                         </div>

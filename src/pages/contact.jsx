@@ -3,111 +3,168 @@ import Layouts from "@layouts/Layouts";
 import Accordion from "react-bootstrap/Accordion";
 import appData from "@data/app.json";
 import { Formik } from "formik";
+import { useTranslate } from "../contexts/TranslateContext";
 
 const Contact = () => {
+  const { t } = useTranslate();
+
   const faqData = {
-    title: "Client’s FAQ",
-    subtitle: "Solving Business Problems <br>is An Everyday",
+    title: t("Client’s FAQ"),
+    subtitle: t("Solving Business Problems <br>is An Everyday"),
     items: [
       {
-        title: "Secure Management and Workforce?",
-        text: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.",
+        title: t("Secure Management and Workforce?"),
+        text: t(
+          "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        ),
         Faqs: [
           {
-            title:
-              "Q1. What measures do you have in place to ensure the security of our data and information?",
-            text: "We employ a multi-layered approach to data security, including encryption, access controls, and regular security audits. Our systems are designed to meet or exceed industry standards for data protection.",
+            title: t(
+              "Q1. What measures do you have in place to ensure the security of our data and information?"
+            ),
+            text: t(
+              "We employ a multi-layered approach to data security, including encryption, access controls, and regular security audits. Our systems are designed to meet or exceed industry standards for data protection."
+            ),
           },
           {
-            title:
-              "Q2. How do you ensure that our sensitive information is protected from unauthorized access?",
-            text: "We utilize advanced authentication methods, such as two-factor authentication to restrict access to sensitive information. Additionally, our security protocols are continuously monitored and updated to address emerging threats.",
+            title: t(
+              "Q2. How do you ensure that our sensitive information is protected from unauthorized access?"
+            ),
+            text: t(
+              "We utilize advanced authentication methods, such as two-factor authentication to restrict access to sensitive information. Additionally, our security protocols are continuously monitored and updated to address emerging threats."
+            ),
           },
           {
-            title:
-              "Q3. Can you provide details about your company's security protocols and certifications?",
-            text: "We adhere to rigorous security protocols based on industry best practices and standards, such as ISO 27001 and SOC 2. Our commitment to security is further demonstrated through our certifications and compliance with relevant regulatory requirements.",
+            title: t(
+              "Q3. Can you provide details about your company's security protocols and certifications?"
+            ),
+            text: t(
+              "We adhere to rigorous security protocols based on industry best practices and standards, such as ISO 27001 and SOC 2. Our commitment to security is further demonstrated through our certifications and compliance with relevant regulatory requirements."
+            ),
           },
           {
-            title: "Q4. How do you handle security breaches or incidents?",
-            text: "In the event of a security breach or incident, we have established incident response procedures to swiftly mitigate the threat and minimize the impact on our clients. Our dedicated team of security experts conducts thorough investigations and implements remediation measures to prevent future occurrences.",
+            title: t("Q4. How do you handle security breaches or incidents?"),
+            text: t(
+              "In the event of a security breach or incident, we have established incident response procedures to swiftly mitigate the threat and minimize the impact on our clients. Our dedicated team of security experts conducts thorough investigations and implements remediation measures to prevent future occurrences."
+            ),
           },
           {
-            title:
-              "Q5. What steps do you take to ensure the safety and security of our employees and contractors?",
-            text: "Employee and contractor safety is paramount to us. We provide comprehensive training on security awareness and emergency response procedures. Additionally, we conduct regular assessments of workplace safety and security measures to identify and address any vulnerabilities.",
+            title: t(
+              "Q5. What steps do you take to ensure the safety and security of our employees and contractors?"
+            ),
+            text: t(
+              "Employee and contractor safety is paramount to us. We provide comprehensive training on security awareness and emergency response procedures. Additionally, we conduct regular assessments of workplace safety and security measures to identify and address any vulnerabilities."
+            ),
           },
           {
-            title:
-              "Q6. How often do you conduct security audits and assessments?",
-            text: "We conduct regular security audits and assessments to evaluate the effectiveness of our security controls and identify areas for improvement. These audits are conducted by both internal teams and third-party security experts to ensure impartiality and thoroughness.",
+            title: t(
+              "Q6. How often do you conduct security audits and assessments?"
+            ),
+            text: t(
+              "We conduct regular security audits and assessments to evaluate the effectiveness of our security controls and identify areas for improvement. These audits are conducted by both internal teams and third-party security experts to ensure impartiality and thoroughness."
+            ),
           },
           {
-            title:
-              "Q7. What role does employee training play in maintaining a secure work environment?",
-            text: "Employee training is integral to maintaining a secure work environment. We provide ongoing training and awareness programs to educate employees about cybersecurity best practices, data handling procedures, and potential security threats.",
+            title: t(
+              "Q7. What role does employee training play in maintaining a secure work environment?"
+            ),
+            text: t(
+              "Employee training is integral to maintaining a secure work environment. We provide ongoing training and awareness programs to educate employees about cybersecurity best practices, data handling procedures, and potential security threats."
+            ),
           },
           {
-            title:
-              "Q8. How do you address physical security concerns at our facilities or workplaces?",
-            text: "We implement comprehensive physical security measures, including access controls, surveillance systems, and perimeter security, to protect our facilities and workplaces. Our security personnel are trained to respond effectively to any security incidents or breaches.",
+            title: t(
+              "Q8. How do you address physical security concerns at our facilities or workplaces?"
+            ),
+            text: t(
+              "We implement comprehensive physical security measures, including access controls, surveillance systems, and perimeter security, to protect our facilities and workplaces. Our security personnel are trained to respond effectively to any security incidents or breaches."
+            ),
           },
           {
-            title:
-              "Q9. Can you explain your approach to risk management and mitigation?",
-            text: "Our approach to risk management involves identifying potential security risks, assessing their likelihood and potential impact, and implementing proactive measures to mitigate or eliminate these risks. We regularly review and update our risk management strategies to adapt to evolving threats.",
+            title: t(
+              "Q9. Can you explain your approach to risk management and mitigation?"
+            ),
+            text: t(
+              "Our approach to risk management involves identifying potential security risks, assessing their likelihood and potential impact, and implementing proactive measures to mitigate or eliminate these risks. We regularly review and update our risk management strategies to adapt to evolving threats."
+            ),
           },
           {
-            title:
-              "Q10. What type of background checks or screening processes do you implement for your workforce?",
-            text: "We conduct thorough background checks and screening processes for all employees and contractors, including criminal background checks, employment verification, and reference checks. These measures help ensure the integrity and trustworthiness of our workforce.",
+            title: t(
+              "Q10. What type of background checks or screening processes do you implement for your workforce?"
+            ),
+            text: t(
+              "We conduct thorough background checks and screening processes for all employees and contractors, including criminal background checks, employment verification, and reference checks. These measures help ensure the integrity and trustworthiness of our workforce."
+            ),
           },
         ],
       },
       {
-        title: "Project management and Tracking",
-        text: "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.",
+        title: t("Project management and Tracking"),
+        text: t(
+          "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        ),
         Faqs: [
           {
-            title: "Q1. Which project management tools do you use?",
-            text: "We primarily use JIRA for project management, but we're also open to exploring other tools based on project requirements.",
+            title: t("Q1. Which project management tools do you use?"),
+            text: t(
+              "We primarily use JIRA for project management, but we're also open to exploring other tools based on project requirements."
+            ),
           },
           {
-            title: "Q2. How do you ensure effective project communication?",
-            text: "We maintain open channels of communication through regular meetings, emails, and collaboration tools like Slack or Microsoft Teams.",
+            title: t("Q2. How do you ensure effective project communication?"),
+            text: t(
+              "We maintain open channels of communication through regular meetings, emails, and collaboration tools like Slack or Microsoft Teams."
+            ),
           },
           {
-            title: "Q3. What's your approach to project tracking?",
-            text: "We use a combination of Gantt charts, task boards, and progress reports to track project milestones and ensure timely delivery.",
+            title: t("Q3. What's your approach to project tracking?"),
+            text: t(
+              "We use a combination of Gantt charts, task boards, and progress reports to track project milestones and ensure timely delivery."
+            ),
           },
           {
-            title: "Q4. How do you handle project deadlines?",
-            text: "We set realistic deadlines and regularly monitor progress to identify potential delays early. If needed, we adjust resources or scope to meet deadlines.",
+            title: t("Q4. How do you handle project deadlines?"),
+            text: t(
+              "We set realistic deadlines and regularly monitor progress to identify potential delays early. If needed, we adjust resources or scope to meet deadlines."
+            ),
           },
           {
-            title: "Q5. What measures do you take to manage project risks?",
-            text: "We conduct risk assessments at the start of the project and develop mitigation strategies. Throughout the project, we monitor risks and take proactive measures to address them.",
+            title: t("Q5. What measures do you take to manage project risks?"),
+            text: t(
+              "We conduct risk assessments at the start of the project and develop mitigation strategies. Throughout the project, we monitor risks and take proactive measures to address them."
+            ),
           },
           {
-            title: "Q6. How do you allocate resources for projects?",
-            text: "Resource allocation is based on project requirements, team availability, and skillsets. We strive for optimal resource utilization to maximize project efficiency.",
+            title: t("Q6. How do you allocate resources for projects?"),
+            text: t(
+              "Resource allocation is based on project requirements, team availability, and skillsets. We strive for optimal resource utilization to maximize project efficiency."
+            ),
           },
           {
-            title: "Q7. Can you describe your project planning process?",
-            text: "Our project planning process involves defining project goals, creating a project timeline, identifying tasks and dependencies, and assigning responsibilities.",
+            title: t("Q7. Can you describe your project planning process?"),
+            text: t(
+              "Our project planning process involves defining project goals, creating a project timeline, identifying tasks and dependencies, and assigning responsibilities."
+            ),
           },
           {
-            title: "Q8. What metrics do you use to measure project success?",
-            text: "We use metrics such as project completion time, budget adherence, stakeholder satisfaction, and quality of deliverables to gauge project success.",
+            title: t("Q8. What metrics do you use to measure project success?"),
+            text: t(
+              "We use metrics such as project completion time, budget adherence, stakeholder satisfaction, and quality of deliverables to gauge project success."
+            ),
           },
           {
-            title: "Q9. How do you adapt to changes during a project?",
-            text: "We maintain flexibility in our project plans and are prepared to adjust timelines, resources, or scope as needed to accommodate changes and maintain project momentum.",
+            title: t("Q9. How do you adapt to changes during a project?"),
+            text: t(
+              "We maintain flexibility in our project plans and are prepared to adjust timelines, resources, or scope as needed to accommodate changes and maintain project momentum."
+            ),
           },
           {
-            title:
-              "Q10. What role does collaboration play in project management?",
-            text: "Collaboration is essential for successful project management as it fosters teamwork, facilitates communication, and enables efficient problem-solving and decision-making. We prioritize collaboration among team members and stakeholders throughout the project lifecycle.",
+            title: t(
+              "Q10. What role does collaboration play in project management?"
+            ),
+            text: t(
+              "Collaboration is essential for successful project management as it fosters teamwork, facilitates communication, and enables efficient problem-solving and decision-making. We prioritize collaboration among team members and stakeholders throughout the project lifecycle."
+            ),
           },
         ],
       },
@@ -117,10 +174,10 @@ const Contact = () => {
   return (
     <Layouts header={2} darkHeader>
       <PageBanner
-        pageTitle={"Contact Us"}
-        pageDesc={
+        pageTitle={t("Contact Us")}
+        pageDesc={t(
           "Have ideas for your business? Let’s build something awesome together."
-        }
+        )}
       />
 
       {/* Onovo Contact Info */}
@@ -130,8 +187,10 @@ const Contact = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
               {/* Heading */}
               <div className="onovo-text gap-bottom-40">
-                <h4>Send Us A Message</h4>
-                Then let us know about it and we can see what we can do to help
+                <h4>{t("Send Us A Message")}</h4>
+                {t(
+                  "Then let us know about it and we can see what we can do to help"
+                )}
               </div>
 
               {/* Form */}
@@ -147,7 +206,7 @@ const Contact = () => {
                         values.email
                       )
                     ) {
-                      errors.email = "Invalid email address";
+                      errors.email = t("Invalid email address");
                     }
                     return errors;
                   }}
@@ -170,7 +229,7 @@ const Contact = () => {
                     })
                       .then((response) => {
                         if (response.ok) {
-                          status.innerHTML = "Thanks for your submission!";
+                          status.innerHTML = t("Thanks for your submission!");
                           form.reset();
                         } else {
                           response.json().then((data) => {
@@ -179,15 +238,17 @@ const Contact = () => {
                                 .map((error) => error["message"])
                                 .join(", ");
                             } else {
-                              status.innerHTML =
-                                "Oops! There was a problem submitting your form";
+                              status.innerHTML = t(
+                                "Oops! There was a problem submitting your form"
+                              );
                             }
                           });
                         }
                       })
                       .catch((error) => {
-                        status.innerHTML =
-                          "Oops! There was a problem submitting your form";
+                        status.innerHTML = t(
+                          "Oops! There was a problem submitting your form"
+                        );
                       });
 
                     setSubmitting(false);
@@ -220,7 +281,7 @@ const Contact = () => {
                               required="required"
                               onChange={handleChange}
                               onBlur={handleBlur}
-                              value={values.name}
+                              value={t(values.name)}
                             />
                           </p>
                         </div>
@@ -246,7 +307,7 @@ const Contact = () => {
                               required="required"
                               onChange={handleChange}
                               onBlur={handleBlur}
-                              value={values.tel}
+                              value={t(values.tel)}
                             />
                           </p>
                         </div>
@@ -258,7 +319,7 @@ const Contact = () => {
                               required="required"
                               onChange={handleChange}
                               onBlur={handleBlur}
-                              value={values.message}
+                              value={t(values.message)}
                             />
                           </p>
                         </div>
@@ -268,7 +329,7 @@ const Contact = () => {
                               type="submit"
                               className="onovo-btn onovo-hover-btn"
                             >
-                              <span>Send Message</span>
+                              <span>{t("Send Message")}</span>
                             </button>
                           </p>
                         </div>
@@ -288,7 +349,7 @@ const Contact = () => {
               <div className="onovo-contact-info onovo-text-white">
                 <ul>
                   <li>
-                    <h5>Contact Info</h5>
+                    <h5>{t("Contact Info")}</h5>
                     <a
                       href="tel:+10204302973"
                       className="onovo-lnk lnk--white"
@@ -326,8 +387,8 @@ const Contact = () => {
                     </div>
                   </li>
                   <li>
-                    <h5>Kiel</h5>
-                    <div>Waitzstraße 92 24118 Kiel</div>
+                    <h5>{t("Kiel")}</h5>
+                    <div>{t("Waitzstraße 92 24118 Kiel")}</div>
                   </li>
                 </ul>
               </div>
@@ -342,10 +403,10 @@ const Contact = () => {
           {/* Heading */}
           <div className="onovo-heading align-center gap-bottom-40">
             <div className="onovo-subtitle-1">
-              <span>{faqData.title}</span>
+              <span>{t(faqData.title)}</span>
             </div>
             <h2 className="onovo-title-2">
-              <span dangerouslySetInnerHTML={{ __html: faqData.subtitle }} />
+              <span dangerouslySetInnerHTML={{ __html: t(faqData.subtitle) }} />
             </h2>
           </div>
 
@@ -363,7 +424,7 @@ const Contact = () => {
                   >
                     <Accordion.Header>
                       <h5 className="title onovo-collapse-btn">
-                        <span>{item.title}</span>
+                        <span>{t(item.title)}</span>
                         <i className="arrow" />
                       </h5>
                     </Accordion.Header>
@@ -371,8 +432,8 @@ const Contact = () => {
                       {item.Faqs.map((q, key) => {
                         return (
                           <div className="onovo-text">
-                            <h6>{q.title}</h6>
-                            <p>{q.text}</p>
+                            <h6>{t(q.title)}</h6>
+                            <p>{t(q.text)}</p>
                           </div>
                         );
                       })}

@@ -2,8 +2,11 @@ import { sliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Data from "@data/sliders/testimonial";
+import { useTranslate } from "@/src/contexts/TranslateContext";
 
 const TestimonialSlider = () => {
+  const { t } = useTranslate();
+
   return (
     <>
       {/* Onovo Reviews */}
@@ -17,13 +20,13 @@ const TestimonialSlider = () => {
                 <div className="onovo-reviews-titles">
                   <h2 className="onovo-title-2">
                     <span data-splitting data-onovo-scroll>
-                      {Data.title}
+                      {t(Data.title)}
                     </span>
                   </h2>
                   <div className="onovo-reviews-summary">
                     <span className="label onovo-text-black">
                       <span data-splitting data-onovo-scroll>
-                        {Data.rating.value}
+                        {t(Data.rating.value)}
                       </span>
                     </span>
                     <span className="onovo-stars">
@@ -35,7 +38,7 @@ const TestimonialSlider = () => {
                     </span>
                     <span className="label">
                       <span data-splitting data-onovo-scroll>
-                        {Data.rating.label}
+                        {t(Data.rating.label)}
                       </span>
                     </span>
                   </div>
@@ -57,16 +60,16 @@ const TestimonialSlider = () => {
                           <div data-splitting>
                             <p
                               dangerouslySetInnerHTML={{
-                                __html: "“" + item.text + "”",
+                                __html: "“" + t(item.text) + "”",
                               }}
                             />
                           </div>
                         </div>
                         <h5 className="title">
-                          <span data-splitting>{item.name}</span>
+                          <span data-splitting>{t(item.name)}</span>
                         </h5>
                         <div className="subtitle">
-                          <span data-splitting>{item.role}</span>
+                          <span data-splitting>{t(item.role)}</span>
                         </div>
                         <div className="onovo-stars stars--small">
                           <i className="fas fa-star" />

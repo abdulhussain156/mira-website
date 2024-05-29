@@ -3,8 +3,11 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 import { servicesHover } from "@common/utilits";
+import { useTranslate } from "@/src/contexts/TranslateContext";
 
 const ServicesSection = ({ paddingtop = false }) => {
+  const { t } = useTranslate();
+
   useEffect(() => {
     servicesHover();
   }, []);
@@ -34,14 +37,18 @@ const ServicesSection = ({ paddingtop = false }) => {
                     }
                   >
                     <div className="image">
-                      <img decoding="async" src={item.image} alt={item.title} />
+                      <img
+                        decoding="async"
+                        src={item.image}
+                        alt={t(item.title)}
+                      />
                     </div>
                     <h5 className="onovo-title-3">
-                      <span>{item.title}</span>
+                      <span>{t(item.title)}</span>
                     </h5>
                     <div className="onovo-text">
                       <div>
-                        <p className="text-service">{item.text}</p>
+                        <p className="text-service">{t(item.text)}</p>
                       </div>
                     </div>
                     <div className="onovo-bubble">
