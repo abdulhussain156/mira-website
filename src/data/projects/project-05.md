@@ -40,15 +40,7 @@ gallery:
   
 additional:
     heading: Project Result
-    content: "
-      <p>Developed a multiplayer strategy game with building assets feature.
-Implemented APIs using Django for seamless communication between frontend and backend.
-Configured SMTP for email functionality with multiple user roles for enhanced security.
-Created a fully responsive React JS frontend with secure authentication for a user-friendly experience.
-Integrated web3 technology for crypto assets movement and wallet management, enabling users to buy and sell products securely.
-Successfully deployed the project and providing ongoing maintenance and support..</p>
- 
-    "
+    content: "<p>Developed a multiplayer strategy game with building assets feature. Implemented APIs using Django for seamless communication between frontend and backend. Configured SMTP for email functionality with multiple user roles for enhanced security. Created a fully responsive React JS frontend with secure authentication for a user-friendly experience. Integrated web3 technology for crypto assets movement and wallet management, enabling users to buy and sell products securely. Successfully deployed the project and providing ongoing maintenance and support..</p>"
 ---
 
 ### Description

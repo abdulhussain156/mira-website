@@ -10,35 +10,30 @@ date: 2021-2023
 
 #full details
 details:
-    items:
-        - label: "Client:"
-          value: Wemalo
+  items:
+    - label: "Client:"
+      value: Wemalo
 
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
-        - label: "Website:"
-          value: https://wemalo.com/en/
+    - label: "Start:"
+      value: Dec 18, 2022
 
-gallery: 
-    items:
-        - image: /assets/project/details/handheld1.png
-          alt: "image"
+    - label: "Ending:"
+      value: Mar 18, 2023
 
-        - image: /assets/project/details/handheld2.jpg
-          alt: "image"
+    - label: "Website:"
+      value: https://wemalo.com/en/
+
+gallery:
+  items:
+    - image: /assets/project/details/handheld1.png
+      alt: "image"
+
+    - image: /assets/project/details/handheld2.jpg
+      alt: "image"
 
 additional:
-    heading: Project Result
-    content: "
-      <p>The implementation of the solution of grouping key tasks in the warehouse, such as booking incoming goods, returns, picking, packing and product relocation, would result in a significant optimization of logistics operations and a substantial improvement in overall warehouse efficiency.
-
-This strategic approach will result in greater synergy between daily activities, allowing tasks to be completed more consistently and quickly. By bringing these essential functions together, more efficient management of time and resources will be achieved, maximizing the productivity of warehouse staff.</p>
-   
-    "
+  heading: Project Result
+  content: "<p>The implementation of the solution of grouping key tasks in the warehouse, such as booking incoming goods returns, picking, packing and product relocation, would result in a significant optimization of logistics operations and a substantial improvement in overall warehouse efficiency. This strategic approach will result in greater synergy between daily activities, allowing tasks to be completed more consistently and quickly. By bringing these essential functions together, more efficient management of time and resources will be achieved, maximizing the productivity of warehouse staff.</p>"
 ---
 
 ### Description

@@ -10,51 +10,27 @@ date: 2021-2023
 
 #full details
 details:
-    items:
-        - label: "Client:"
-          value: Our Product
+  items:
+    - label: "Client:"
+      value: Our Product
 
-        - label: "Start:"
-          value: Dec 18, 2022
-        
-        - label: "Ending:"
-          value: Mar 18, 2023
-        
+    - label: "Start:"
+      value: Dec 18, 2022
 
-gallery: 
-    items:
-        - image: /assets/project/details/mipark.png
-          alt: "image"
+    - label: "Ending:"
+      value: Mar 18, 2023
 
-        - image: /assets/project/details/mipark1.png
-          alt: "image"
+gallery:
+  items:
+    - image: /assets/project/details/mipark.png
+      alt: "image"
 
+    - image: /assets/project/details/mipark1.png
+      alt: "image"
 
 additional:
-    heading: Project Result
-    content: "
-      <p>Key features of the MiPark Application include.</p>
-      <ul>
-        <li>
-          User-friendly interface for easy navigation and seamless usage.
-        </li>
-        <li>
-          Secure parking management with state-of-the-art security measures.
-        </li>
-        <li>
-          Real-time monitoring of parking availability for enhanced efficiency.
-        </li>
-         <li>
-Intelligent allocation of parking spaces based on real-time data.
-        </li>
-         <li>
-        Convenient features such as viewing nearby parking availability, reserving parking slots, and navigating to reserved spots with ease.
-        </li>
-         <li>
-Seamless payment process with integrated PayPal functionality.
-        </li>
-      </ul>
-    "
+  heading: Project Result
+  content: "<p>Key features of the MiPark Application include.</p><ul><li>User-friendly interface for easy navigation and seamless usage.</li><li>Secure parking management with state-of-the-art security measures.</li><li>Real-time monitoring of parking availability for enhanced efficiency.</li><li>Intelligent allocation of parking spaces based on real-time data.</li><li>Convenient features such as viewing nearby parking availability, reserving parking slots, and navigating to reserved spots with ease.</li><li>Seamless payment process with integrated PayPal functionality.</li></ul>"
 ---
 
 ### Description

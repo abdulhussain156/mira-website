@@ -18,8 +18,11 @@ import {
   RedditShareButton,
   TwitterShareButton,
 } from "react-share";
+import { useTranslation } from "react-i18next";
 
 const ProjectDetail = (props) => {
+  const { t } = useTranslation();
+
   const postData = props.data;
   let prev_id,
     next_id,
@@ -51,7 +54,7 @@ const ProjectDetail = (props) => {
 
   return (
     <Layouts header={2} footer={2} darkHeader>
-      <PageBanner pageTitle={postData.title} pageDesc={postData.type} />
+      <PageBanner pageTitle={t(postData.title)} pageDesc={t(postData.type)} />
 
       {/* Onovo Project Detail */}
       <section className="onovo-section gap-top-140">
@@ -59,7 +62,7 @@ const ProjectDetail = (props) => {
           {/* Image */}
           <div className="gap-bottom-80">
             <div className="project-image">
-              <img src={postData.image} alt={postData.title} />
+              <img src={postData.image} alt={t(postData.title)} />
             </div>
           </div>
 
@@ -70,7 +73,9 @@ const ProjectDetail = (props) => {
                   {/* Description */}
                   <div className="onovo-text">
                     <div
-                      dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+                      dangerouslySetInnerHTML={{
+                        __html: t(postData.contentHtml),
+                      }}
                     />
                   </div>
                 </>
@@ -85,9 +90,9 @@ const ProjectDetail = (props) => {
                       {postData.details.items.map((item, key) => (
                         <li key={`details-item-${key}`}>
                           <div>
-                            <strong>{item.label}</strong>
+                            <strong>{t(item.label)}</strong>
                           </div>
-                          <div>{item.value}</div>
+                          <div>{t(item.value)}</div>
                         </li>
                       ))}
                     </>
@@ -95,7 +100,7 @@ const ProjectDetail = (props) => {
 
                   <li>
                     <div>
-                      <strong>Share:</strong>
+                      <strong>{t("Share:")}</strong>
                     </div>
                     <div className="onovo-share">
                       <div className="social-share onovo-post-socials onovo-social-2">
@@ -104,7 +109,7 @@ const ProjectDetail = (props) => {
                             <FacebookShareButton
                               className="onovo-social-link onovo-hover-2"
                               url={shareUrl}
-                              quote={postData.title}
+                              quote={t(postData.title)}
                               hashtag={"#" + postData.category}
                             >
                               <i className="icon fab fa-facebook" />
@@ -114,7 +119,7 @@ const ProjectDetail = (props) => {
                             <TwitterShareButton
                               className="onovo-social-link onovo-hover-2"
                               url={shareUrl}
-                              title={postData.title}
+                              title={t(postData.title)}
                               hashtag={"#" + postData.category}
                             >
                               <i className="icon fab fa-twitter"></i>
@@ -124,8 +129,8 @@ const ProjectDetail = (props) => {
                             <LinkedinShareButton
                               className="onovo-social-link onovo-hover-2"
                               url={shareUrl}
-                              title={postData.title}
-                              summary={postData.type}
+                              title={t(postData.title)}
+                              summary={t(postData.type)}
                               source={shareUrl}
                             >
                               <i className="icon fab fa-linkedin" />
@@ -135,7 +140,7 @@ const ProjectDetail = (props) => {
                             <RedditShareButton
                               className="onovo-social-link onovo-hover-2"
                               url={shareUrl}
-                              title={postData.title}
+                              title={t(postData.title)}
                             >
                               <i className="icon fab fa-reddit" />
                             </RedditShareButton>
@@ -145,7 +150,7 @@ const ProjectDetail = (props) => {
                               className="onovo-social-link onovo-hover-2"
                               url={shareUrl}
                               media={postData.image}
-                              description={postData.title}
+                              description={t(postData.title)}
                             >
                               <i className="icon fab fa-pinterest" />
                             </PinterestShareButton>
@@ -170,7 +175,7 @@ const ProjectDetail = (props) => {
                   >
                     <div className="gallery-item">
                       <a href={item.image} className="mfp-image">
-                        <img src={item.image} alt={item.alt} />
+                        <img src={item.image} alt={t(item.alt)} />
                       </a>
                     </div>
                   </div>
@@ -184,11 +189,11 @@ const ProjectDetail = (props) => {
               {/* Description */}
               <div className="onovo-text gap-top-80">
                 <h6 className="text-uppercase">
-                  {postData.additional.heading}
+                  {t(postData.additional.heading)}
                 </h6>
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: postData.additional.content,
+                    __html: t(postData.additional.content),
                   }}
                 />
               </div>
