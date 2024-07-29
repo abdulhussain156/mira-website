@@ -52,4 +52,4 @@ projects:
 
 ### About Irtaza
 
-Irtaza is a Technical Project Manager specializing in software solutions and IoT development, adept at navigating the complexities of networks and emerging technologies. With 4 to 5 years of experience, he brings a wealth of expertise to the table.
+Irtaza, the Technical Project Manager, brings a wealth of experience in hardware and software development, coupled with outstanding team management skills. His extensive background includes roles at various leading companies, where he has consistently demonstrated his ability to lead and coordinate teams effectively. Known for his strong technical knowledge and problem-solving abilities, Irtaza excels at guiding his team to develop innovative solutions that meet and exceed project requirements. His expertise ensures that projects are delivered efficiently and to the highest standards, making him an invaluable asset to any organization.

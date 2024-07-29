@@ -50,6 +50,6 @@ projects:
   - project-05
 ---
 
-### About Raza
+### About Selma
 
-He is the founder and CEO of Mira Dev, with over a decade of experience in both software and hardware development. His vision revolves around bridging the gap between humanity and the tech industry, a mission he diligently pursues each day.
+Selma, our accomplished Human Resource Manager at Mira Elektronikentwicklung. With extensive experience in team acquisition and team management, Selma excels in identifying and nurturing talent to build strong, cohesive teams. Her expertise extends to overseeing payroll and ensuring all HR operations run smoothly. Selma's dedication and proficiency make her an invaluable asset to our organization.

@@ -53,26 +53,27 @@ const About = (props) => {
               {/* Heading */}
               <div className="onovo-heading gap-bottom-60">
                 <div className="onovo-subtitle-1">
-                  <span> {t("Welcome to Onovo")} </span>
+                  <span> {t("Welcome to Mira Elekronikentwicklung")} </span>
                 </div>
                 <h2 className="onovo-title-2">
                   <span>
-                    {t("We are a digital agency,")} <br />
-                    {t("passionate about building")} <br />
-                    {t("and designing brands")}
+                    {t("We are a cutting-edge software provider,")} <br />
+                    {t("dedicated to developing innovative solutions")} <br />
                   </span>
                 </h2>
                 <div className="onovo-text">
                   <p>
                     {t(
-                      "From the moment our company was founded, we have helped our clients find"
+                      "Since our inception, we have been committed to providing "
                     )}
                     <strong>
-                      {t("exceptional solutions for their businesses")}
+                      {t(
+                        "innovative software solutions tailored to your needs"
+                      )}
                     </strong>
                     ,
                     {t(
-                      "creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience."
+                      "driving growth and enhancing user experiences. Our dedication to excellence is reflected in our evolving expertise and successful projects."
                     )}
                   </p>
                 </div>
@@ -110,10 +111,10 @@ const About = (props) => {
               <div className="onovo-counter">
                 <div
                   className="num onovo-text-white js-counter"
-                  data-end-value="99"
+                  data-end-value="25"
                 >
                   <CountUp
-                    end="99"
+                    end="25"
                     duration={7}
                     enableScrollSpy={true}
                     scrollSpyOnce={true}
@@ -129,10 +130,10 @@ const About = (props) => {
               <div className="onovo-counter">
                 <div
                   className="num onovo-text-white js-counter"
-                  data-end-value="12"
+                  data-end-value="1"
                 >
                   <CountUp
-                    end="12"
+                    end="1"
                     duration={7}
                     enableScrollSpy={true}
                     scrollSpyOnce={true}

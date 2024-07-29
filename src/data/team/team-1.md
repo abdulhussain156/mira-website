@@ -52,4 +52,4 @@ projects:
 
 ### About Raza
 
-He is the founder and CEO of Mira Dev, with over a decade of experience in both software and hardware development. His vision revolves around bridging the gap between humanity and the tech industry, a mission he diligently pursues each day.
+Raza, the CEO of Mira Elektronikentwicklung, leads a Germany-based company specializing in innovative electronic solutions. With over 15 years of experience as an electronics engineer, he has excelled in hardware, software, and system development. Specializing in the development of industrial Battery Energy Storage Systems (BESS) and Battery Management Systems (BMS), Raza also possesses a strong background in project management and team leadership. Under Raza's leadership, Mira Elektronikentwicklung has successfully delivered numerous complex projects, consistently providing tailored solutions to meet clients' needs.
