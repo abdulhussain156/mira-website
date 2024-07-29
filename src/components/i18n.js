@@ -1,11 +1,15 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import tEn from "../../src/locales/en/translation.json";
+import tDe from "../../src/locales/de/translation.json";
 import tAr from "../../src/locales/ar/translation.json";
 
 const resources = {
   en: {
     translation: tEn,
+  },
+  de: {
+    translation: tDe,
   },
   ar: {
     translation: tAr,

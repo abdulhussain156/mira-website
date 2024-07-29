@@ -6,18 +6,37 @@ import { useTranslate } from "@/src/contexts/TranslateContext";
 
 const Header2 = ({ darkHeader, cartButton }) => {
   const { t, language, handleTranslate } = useTranslate();
-  const [translate, setTranslate] = useState(language);
+  const [selectedLanguage, setSelectedLanguage] = useState(language);
+
+  const languages = [
+    {
+      code: "en",
+      label: "English",
+      flagSrc: "/assets/flag/united-kingdom.png",
+    },
+    { code: "de", label: "German", flagSrc: "/assets/flag/germany.png" },
+    {
+      code: "ar",
+      label: "Arabic",
+      flagSrc: "/assets/flag/united-arab-emirates.png",
+    },
+  ];
 
   useEffect(
     function () {
-      setTranslate(language);
+      setSelectedLanguage(language);
     },
     [language]
   );
 
+  const handleChange = (e) => {
+    setSelectedLanguage(e.target.value);
+    handleTranslate(e.target.value);
+  };
+
   const toggleLanguage = () => {
-    const newLanguage = translate === "en" ? "ar" : "en";
-    setTranslate(newLanguage);
+    const newLanguage = language === "en" ? "ar" : "en";
+    setSelectedLanguage(newLanguage);
     handleTranslate(newLanguage);
   };
 
@@ -217,17 +236,31 @@ const Header2 = ({ darkHeader, cartButton }) => {
                 </div>
               </div>
               <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center align-right hide-on-mobile-extra">
-                {/* Button */}
-                <button
-                  className="onovo-btn onovo-hover-btn btn--active"
-                  onClick={toggleLanguage}
-                >
-                  <span>
-                    {language === "en"
-                      ? "Translate to Arabic"
-                      : "Translate to English"}
-                  </span>
-                </button>
+                {/* Conditional rendering of flags */}
+                {selectedLanguage === "en" && (
+                  <img
+                    src="/assets/flag/germany.png"
+                    alt="German flag"
+                    style={{ height: "2.4rem", cursor: "pointer" }}
+                    onClick={() => handleTranslate("de")}
+                  />
+                )}
+                {selectedLanguage === "de" && (
+                  <img
+                    src="/assets/flag/united-arab-emirates.png"
+                    alt="Arabic flag"
+                    style={{ height: "2.4rem", cursor: "pointer" }}
+                    onClick={() => handleTranslate("ar")}
+                  />
+                )}
+                {selectedLanguage === "ar" && (
+                  <img
+                    src="/assets/flag/united-kingdom.png"
+                    alt="English flag"
+                    style={{ height: "2.4rem", cursor: "pointer" }}
+                    onClick={() => handleTranslate("en")}
+                  />
+                )}
               </div>
             </div>
           </div>
