@@ -1,24 +1,24 @@
 ---
 #preview details
-image: /assets/team/AbbasMadad.png
-name: Abbas Madad Naqvi
-role: SAP B1 (HOD)
-first_letter: A
+image: /assets/team/Selma.png
+name: Selma
+role: Human Resources Manager
+first_letter: S
 social:
-  - link: https://www.linkedin.com/in/abbas-naqvi-2bb470101/
+  - link: https://www.linkedin.com/in/raza-abbas-4576a0147/
     icon: fab fa-linkedin-in
     title: Linkedin
 
 #full details
 info:
   - label: Age
-    value: 35 years
+    value: 30 years
 
   - label: Location
     value: Waitzstraße 92, 24118, Kiel
 
   - label: Email
-    value: abbas.madad@mira-dev.de
+    value: selma@mira-dev.de
 
   - label: Phone No
     value: +49 1522 6426128
@@ -32,24 +32,24 @@ services:
 
 awards:
   - label: 7 SOTD <br> 17 HONORABLE MENTION <br> 3 MOBILE EXCELLENCE
-    value: 15
+    value: 31
     image: /images/award1.png
 
   - label: 11 SOTD <br> 5 SPECIAL KUDOS
-    value: 11
+    value: 16
     image: /images/award2.png
 
   - label: AWARD 2019 <br> 1 GLOBAL COMPETITION
-    value: 24
+    value: 20
     image: /images/award3.png
 
 projects:
-  - project-01
+  - project-04
   - project-02
   - project-03
-  - project-04
+  - project-05
 ---
 
-### About Abbas
+### About Raza
 
-Abbas leads the development of ERP systems, bringing his expertise in ERP software to the forefront. With vast experience in SAPB1, he has successfully completed numerous projects worldwide.
+He is the founder and CEO of Mira Dev, with over a decade of experience in both software and hardware development. His vision revolves around bridging the gap between humanity and the tech industry, a mission he diligently pursues each day.
