@@ -52,7 +52,7 @@ const DefaultFooter = () => {
                       className="onovo-lnk lnk--white"
                       target="_blank"
                     >
-                      info@mira-dev.de
+                      info@mira-ee.com
                     </a>
                   </p>
                 </div>
