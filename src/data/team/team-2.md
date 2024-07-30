@@ -1,7 +1,7 @@
 ---
 #preview details
 image: /assets/team/Selma.png
-name: Selma
+name: Selma Yüceer
 role: Human Resources Manager
 first_letter: S
 social:
@@ -50,6 +50,6 @@ projects:
   - project-05
 ---
 
-### About Selma
+### About Selma Yüceer
 
 Selma, our accomplished Human Resource Manager at Mira Elektronikentwicklung. With extensive experience in team acquisition and team management, Selma excels in identifying and nurturing talent to build strong, cohesive teams. Her expertise extends to overseeing payroll and ensuring all HR operations run smoothly. Selma's dedication and proficiency make her an invaluable asset to our organization.

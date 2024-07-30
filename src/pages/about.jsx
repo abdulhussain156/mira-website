@@ -111,10 +111,10 @@ const About = (props) => {
               <div className="onovo-counter">
                 <div
                   className="num onovo-text-white js-counter"
-                  data-end-value="25"
+                  data-end-value="50"
                 >
                   <CountUp
-                    end="25"
+                    end="50"
                     duration={7}
                     enableScrollSpy={true}
                     scrollSpyOnce={true}
